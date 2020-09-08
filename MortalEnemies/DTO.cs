@@ -41,5 +41,6 @@ namespace MortalEnemies
     public class Attack
     {
         [JsonProperty("Strike Angle")] public float StrikeAngle { get; set; } = float.MaxValue;
+        [JsonProperty("Attack Angle")] public float AttackAngle { get; set; } = float.MaxValue;
     }
 }

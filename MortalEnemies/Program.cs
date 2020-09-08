@@ -81,11 +81,12 @@ namespace MortalEnemies
                 if (attackData == null) continue;
 
                 var patchedRace = state.PatchMod.Races.GetOrAddAsOverride(race);
-                if(Math.Abs(attackData.AngleTolerance - float.MaxValue) > float.Epsilon)
-                    patchedRace.AngularTolerance = attackData.AngleTolerance;
-                if(Math.Abs(attackData.AngularAcceleration - float.MaxValue) > float.Epsilon)
+                
+                if (Math.Abs(attackData.AngleTolerance - float.MaxValue) > float.Epsilon)
+                    patchedRace.AimAngleTolerance = attackData.AngleTolerance;
+                if (Math.Abs(attackData.AngularAcceleration - float.MaxValue) > float.Epsilon)
                     patchedRace.AngularAccelerationRate = attackData.AngularAcceleration;
-                if(Math.Abs(attackData.UnarmedReach - float.MaxValue) > float.Epsilon)
+                if (Math.Abs(attackData.UnarmedReach - float.MaxValue) > float.Epsilon)
                     patchedRace.UnarmedReach = attackData.UnarmedReach;
 
                 if (attackData.Attacks.Count == 0) continue;
@@ -102,7 +103,11 @@ namespace MortalEnemies
                 foreach (var valueTuple in attacksToPatch)
                 {
                     var (attackToPatch, data) = valueTuple;
-                    attackToPatch.AttackData!.StrikeAngle = data.StrikeAngle;
+                    
+                    if (Math.Abs(data.StrikeAngle - float.MaxValue) > float.Epsilon)
+                        attackToPatch.AttackData!.StrikeAngle = data.StrikeAngle;
+                    if (Math.Abs(data.AttackAngle - float.MaxValue) > float.Epsilon)
+                        attackToPatch.AttackData!.AttackAngle = data.AttackAngle;
                 }
             }
         }
