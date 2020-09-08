@@ -1,0 +1,2695 @@
+{
+  "classifications":{
+    "UndeadDragonRace":[
+      "Dragon Race",
+      "Mechanical Dragon Race"
+    ],
+    "WhiteStagRace":[
+      "Deer"
+    ],
+    "DraugrMagicRace":[
+      "Draugr",
+      "One Eye Race"
+    ],
+    "SprigganMatronRace":[
+      "Spriggan"
+    ],
+    "SkeletonNecroRace":[
+      "Skeleton",
+      "Draman Skeleton",
+	  "Draman"
+    ],
+    "WispShadeRace":[
+      "Wisp"
+    ],
+    "MagicAnomalyRace":[
+      "Essence of Magicka"
+    ],
+    "WerewolfBeastRace":[
+      "Werewolf",
+      "Daedroth"
+    ],
+    "SkeeverWhiteRace":[
+      "Skeever"
+    ],
+    "RigidSkeletonRace":[
+      "Skeleton"
+    ],
+    "MudcrabRace":[
+      "MudCrab"
+    ],
+    "SkeletonRace":[
+      "Skeleton",
+      "Beast Skeleton"
+    ],
+    "ChaurusReaperRace":[
+      "Chaurus"
+    ],
+    "SprigganSwarmRace":[
+      "Witchlight"
+    ],
+    "SwarmRace":[
+      "Witchlight"
+    ],
+    "FrostbiteSpiderRaceLarge":[
+      "Frostbite Spider"
+    ],
+    "FrostbiteSpiderRaceGiant":[
+      "Frostbite Spider"
+    ],
+    "WolfRace":[
+      "Wolf",
+	  "Spirit Wolf"
+    ],
+    "WitchlightRace":[
+      "Witchlight"
+    ],
+    "WispRace":[
+      "Wisp",
+	  "Blighted Wisp"
+    ],
+    "TrollFrostRace":[
+      "Snow Troll"
+    ],
+    "TrollRace":[
+      "Troll",
+	  "Gehenoth Race"
+    ],
+    "SprigganRace":[
+      "Spriggan"
+    ],
+    "SlaughterfishRace":[
+      "Slaughterfish"
+    ],
+    "SabreCatSnowyRace":[
+      "Snowy Sabre Cat",
+	  "Spirit Sabre Cat"
+    ],
+    "SkeeverRace":[
+      "Skeever",
+	  "Spirit Skeever"
+    ],
+    "SabreCatRace":[
+      "Sabre Cat"
+    ],
+    "MammothRace":[
+      "Mammoth"
+    ],
+    "IceWraithRace":[
+      "Ice Wraith",
+      "Soul Wraith"
+    ],
+    "HorseRace":[
+      "Horse"
+    ],
+    "HorkerRace":[
+      "Horker"
+    ],
+    "HagravenRace":[
+      "Hagraven"
+    ],
+    "GiantRace":[
+      "Giant",
+      "Ogre"
+    ],
+    "FrostbiteSpiderRace":[
+      "Frostbite Spider"
+    ],
+    "AtronachStormRace":[
+      "Storm Atronach",
+      "Ore Guardian",
+      "Stahlrim Guardian",
+	  "Bone Atronach"
+    ],
+    "AtronachFrostRace":[
+      "Frost Atronach"
+    ],
+    "AtronachFlameRace":[
+      "Flame Atronach",
+	  "Blue Flame Atronach"
+    ],
+    "FalmerRace":[
+      "Falmer",
+      "Goblin"
+    ],
+    "DwarvenSpiderRace":[
+      "Dwarven Spider"
+    ],
+    "DwarvenSphereRace":[
+      "Dwarven Sphere"
+    ],
+    "DwarvenCenturionRace":[
+      "Dwarven Centurion"
+    ],
+    "DragonPriestRace":[
+      "Dragon Priest"
+    ],
+    "DogRace":[
+      "Dog"
+    ],
+    "ChaurusRace":[
+      "Chaurus"
+    ],
+    "BearSnowRace":[
+      "Snow Bear",
+	  "Spirit Bear"
+    ],
+    "BearBlackRace":[
+      "Cave Bear"
+    ],
+    "BearBrownRace":[
+      "Bear"
+    ],
+    "DragonRace":[
+      "Dragon Race"
+    ],
+    "DraugrRace":[
+      "Draugr",
+      "Armored Skeleton"
+    ],
+    "DLC1HuskyBareCompanionRace":[
+      "Dog"
+    ],
+    "DLC1GargoyleVariantBossRace":[
+      "Gargoyle"
+    ],
+    "DLC1DeathHoundCompanionRace":[
+      "Deathhound"
+    ],
+    "DLC1HuskyArmoredCompanionRace":[
+      "Dog"
+    ],
+    "FalmerFrozenVampRace":[
+      "Falmer"
+    ],
+    "DLC1BlackSkeletonRace":[
+      "Skeleton"
+    ],
+    "DLC1GargoyleVariantGreenRace":[
+      "Gargoyle"
+    ],
+    "DLC1HuskyBareRace":[
+      "Dog"
+    ],
+    "DLC1HuskyArmoredRace":[
+      "Dog"
+    ],
+    "DLC1_BF_ChaurusRace":[
+      "Chaurus"
+    ],
+    "SprigganEarthMotherRace":[
+      "Spriggan"
+    ],
+    "DLC1TrollRaceArmored":[
+      "Troll"
+    ],
+    "DLC1TrollFrostRaceArmored":[
+      "Snow Troll"
+    ],
+    "DLC1UndeadDragonRace":[
+      "Dragon Race"
+    ],
+    "DLC1SabreCatGlowRace":[
+      "Sabre Cat"
+    ],
+    "DLC1DeathHoundRace":[
+      "Dog"
+    ],
+    "DLC01SoulCairnBonemanRace":[
+      "Skeleton"
+    ],
+    "DLC1GargoyleRace":[
+      "Gargoyle",
+      "Draman Brute",
+      "Frost Brute"
+    ],
+    "DLC1SoulCairnSkeletonArmorRace":[
+      "Draugr"
+    ],
+    "DLC1SoulCairnKeeperRace":[
+      "Draugr"
+    ],
+    "DLC1SoulCairnSkeletonNecroRace":[
+      "Skeleton"
+    ],
+    "DLC1ChaurusHunterRace":[
+      "Chaurusflyer",
+      "Ash Hunter"
+    ],
+    "SkeletonArmorRace":[
+      "Draugr"
+    ],
+    "DLC2AcolyteDragonPriestRace":[
+      "Dragon Priest"
+    ],
+    "DLC2DragonBlackRace":[
+      "Dragon Race"
+    ],
+    "DragonBlackRace":[
+      "Dragon Race"
+    ],
+    "DLC2DwarvenBallistaRace":[
+      "Dwarven Sphere"
+    ],
+    "DLC2HulkingDraugrRace":[
+      "Draugr"
+    ],
+    "DLC2dunInstrumentsRace":[
+      "Witchlight"
+    ],
+    "DLC2dunKarstaagIceWraithRace":[
+      "Ice Wraith"
+    ],
+    "dlc2AshGuardianRace":[
+      "Storm Atronach"
+    ],
+    "DLC2ExpSpiderPackmuleRace":[
+      "Frostbite Spider"
+    ],
+    "DLC2WerebearBeastRace":[
+      "Werewolf"
+    ],
+    "DLC2GhostFrostGiantRace":[
+      "Ghost Giant"
+    ],
+    "DLC2AshHopperRace":[
+      "Scrib"
+    ],
+    "DLC2MudcrabSolstheimRace":[
+      "MudCrab"
+    ],
+    "DLC2SprigganBurntRace":[
+      "Spriggan"
+    ],
+    "DLC2AshSpawnRace":[
+      "Draugr"
+    ],
+    "DLC2LurkerRace":[
+      "Lurker"
+    ],
+    "DLC2ExpSpiderBaseRace":[
+      "Frostbite Spider"
+    ]
+  },
+  "attackData":{
+    "UndeadDragonRace":{
+      "Unarmed Reach":"256.000000",
+      "Angular Acceleration":"0.250000",
+      "Angle Tolerance":"41.750000",
+      "Attacks":{
+        "attackStartBite":{
+          "Strike Angle":"22.000000"
+        },
+        "attackStartBiteLeft":{
+          "Strike Angle":"22.000000"
+        },
+        "attackStartBiteRight":{
+          "Strike Angle":"22.000000"
+        }
+      }
+    },
+    "WhiteStagRace":{
+      "Unarmed Reach":"96.000000",
+      "Angular Acceleration":"0.350000",
+      "Angle Tolerance":"0.000000",
+      "Attacks":{
+
+      }
+    },
+    "DraugrMagicRace":{
+      "Unarmed Reach":"96.000000",
+      "Angular Acceleration":"1.100000",
+      "Angle Tolerance":"0.000000",
+      "Attacks":{
+        "attackStart1HMBackSlash":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStart1HMForwardPower":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStart1HMPowerChop":{
+          "Strike Angle":"27.000000"
+        },
+        "attackStart1HMPowerSlash":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStart1HMSwipe":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStart1HMX2":{
+          "Strike Angle":"35.000000"
+        },
+        "attackStart2HMBackSwipe":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart2HMForwardPowerChop":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart2HMForwardSwipe":{
+          "Strike Angle":"30.000000"
+        },
+        "attackStart2HMPowerChop":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart2HMSlash":{
+          "Strike Angle":"30.000000"
+        },
+        "attackStartGSBackSlash":{
+          "Strike Angle":"30.000000"
+        },
+        "attackStartGSChop":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStartGSForwardPowerB":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStartGSX2":{
+          "Strike Angle":"25.000000"
+        },
+        "AttackStartH2HLeft":{
+          "Strike Angle":"18.000000"
+        },
+        "AttackStartH2HRight":{
+          "Strike Angle":"18.000000"
+        },
+        "bashStart":{
+          "Strike Angle":"25.000000"
+        }
+      }
+    },
+    "SprigganMatronRace":{
+      "Unarmed Reach":"96.000000",
+      "Angular Acceleration":"0.550000",
+      "Angle Tolerance":"0.000000",
+      "Attacks":{
+        "attackStart_PowerAttackForward":{
+          "Strike Angle":"45.000000"
+        }
+      }
+    },
+    "SkeletonNecroRace":{
+      "Unarmed Reach":"96.000000",
+      "Angular Acceleration":"0.850000",
+      "Angle Tolerance":"0.000000",
+      "Attacks":{
+        "attackStart1HMBackSlash":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStart1HMPowerChop":{
+          "Strike Angle":"27.000000"
+        },
+        "attackStart1HMPowerSlash":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStart1HMSwipe":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStart1HMX2":{
+          "Strike Angle":"35.000000"
+        },
+        "attackStart2HMBackSwipe":{
+          "Strike Angle":"45.000000"
+        },
+        "attackStart2HMForwardPowerChop":{
+          "Strike Angle":"27.000000"
+        },
+        "attackStart2HMForwardSwipe":{
+          "Strike Angle":"45.000000"
+        },
+        "attackStart2HMPowerChop":{
+          "Strike Angle":"27.000000"
+        },
+        "attackStart2HMSlash":{
+          "Strike Angle":"45.000000"
+        },
+        "attackStartGSBackSlash":{
+          "Strike Angle":"45.000000"
+        },
+        "attackStartGSChop":{
+          "Strike Angle":"27.000000"
+        },
+        "attackStartGSForwardPowerB":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStartGSX2":{
+          "Strike Angle":"40.000000"
+        },
+        "AttackStartH2HLeft":{
+          "Strike Angle":"18.000000"
+        },
+        "AttackStartH2HRight":{
+          "Strike Angle":"18.000000"
+        }
+      }
+    },
+    "WispShadeRace":{
+      "Unarmed Reach":"96.000000",
+      "Angular Acceleration":"1.000000",
+      "Angle Tolerance":"0.000000",
+      "Attacks":{
+        "attackStart_Attack1":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_Attack2":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_TouchPush":{
+          "Strike Angle":"25.000000"
+        },
+        "bashStart":{
+          "Strike Angle":"25.000000"
+        }
+      }
+    },
+    "MagicAnomalyRace":{
+      "Unarmed Reach":"140.000000",
+      "Angular Acceleration":"0.450000",
+      "Angle Tolerance":"10.000000",
+      "Attacks":{
+        "attackPowerStart_GroundDive":{
+          "Strike Angle":"25.000000"
+        },
+        "attackPowerStart_PowerAttack":{
+          "Strike Angle":"22.000000"
+        },
+        "attackStart_AttackLtoR":{
+          "Strike Angle":"22.000000"
+        },
+        "attackStart_AttackRtoL":{
+          "Strike Angle":"22.000000"
+        }
+      }
+    },
+    "WerewolfBeastRace":{
+      "Unarmed Reach":"127.000000",
+      "Angular Acceleration":"0.750000",
+      "Angle Tolerance":"20.000000",
+      "Attacks":{
+        "AttackStartBackHand":{
+          "Strike Angle":"40.000000"
+        },
+        "AttackStartDual":{
+          "Strike Angle":"40.000000"
+        },
+        "AttackStartDualRunning":{
+          "Strike Angle":"40.000000"
+        },
+        "AttackStartDualSprinting":{
+          "Strike Angle":"40.000000"
+        },
+        "AttackStartHowlExplode":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStartLeft":{
+          "Strike Angle":"40.000000"
+        },
+        "AttackStartLeftPower":{
+          "Strike Angle":"40.000000"
+        },
+        "AttackStartLeftRunningPower":{
+          "Strike Angle":"40.000000"
+        },
+        "AttackStartLeftSide":{
+          "Strike Angle":"35.000000"
+        },
+        "AttackStartLeftSprinting":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStartRight":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStartRightPower":{
+          "Strike Angle":"40.000000"
+        },
+        "AttackStartRightRunningPower":{
+          "Strike Angle":"40.000000"
+        },
+        "AttackStartRightSide":{
+          "Strike Angle":"35.000000"
+        },
+        "AttackStartRightSprinting":{
+          "Strike Angle":"40.000000"
+        }
+      }
+    },
+    "SkeeverWhiteRace":{
+      "Unarmed Reach":"64.000000",
+      "Angular Acceleration":"0.450000",
+      "Angle Tolerance":"0.000000",
+      "Attacks":{
+        "attackStart_Attack1":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_Attack2":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_ForwardPower":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_SkeeverLungeLong":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_SkeeverLungeMedium":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_SkeeverLungeShort":{
+          "Strike Angle":"25.000000"
+        }
+      }
+    },
+    "RigidSkeletonRace":{
+      "Unarmed Reach":"64.000000",
+      "Angular Acceleration":"0.850000",
+      "Angle Tolerance":"0.000000",
+      "Attacks":{
+        "attackStart1HMBackSlash":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStart1HMPowerChop":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart1HMPowerSlash":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStart1HMSlash":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStart1HMSwipe":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStart1HMX2":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStart2HMattackA":{
+          "Strike Angle":"45.000000"
+        },
+        "attackStart2HMAttackPowerChop":{
+          "Strike Angle":"27.000000"
+        },
+        "attackStart2HMAttackSlash":{
+          "Strike Angle":"45.000000"
+        },
+        "attackStart2HMForwardPowerChop":{
+          "Strike Angle":"27.000000"
+        },
+        "attackStart2HMPowerChop":{
+          "Strike Angle":"27.000000"
+        },
+        "attackStart2HMPowerSlash":{
+          "Strike Angle":"45.000000"
+        },
+        "attackStart2HMSlash":{
+          "Strike Angle":"45.000000"
+        },
+        "attackStartA":{
+          "Strike Angle":"30.000000"
+        },
+        "attackStartB":{
+          "Strike Angle":"30.000000"
+        },
+        "attackStartC":{
+          "Strike Angle":"30.000000"
+        },
+        "attackStartD":{
+          "Strike Angle":"30.000000"
+        },
+        "attackStartE":{
+          "Strike Angle":"30.000000"
+        },
+        "attackStartF":{
+          "Strike Angle":"30.000000"
+        },
+        "attackStartForwardA":{
+          "Strike Angle":"30.000000"
+        },
+        "attackStartForwardB":{
+          "Strike Angle":"30.000000"
+        },
+        "attackStartForwardC":{
+          "Strike Angle":"30.000000"
+        },
+        "attackStartForwardD":{
+          "Strike Angle":"30.000000"
+        },
+        "attackStartForwardE":{
+          "Strike Angle":"30.000000"
+        },
+        "attackStartGSBackSlash":{
+          "Strike Angle":"45.000000"
+        },
+        "attackStartGSForwardPowerChop":{
+          "Strike Angle":"27.000000"
+        },
+        "attackStartGSForwardPowerChop2":{
+          "Strike Angle":"27.000000"
+        },
+        "attackStartGSForwardStab":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStartGSX2":{
+          "Strike Angle":"40.000000"
+        },
+        "AttackStartH2HLeft":{
+          "Strike Angle":"18.000000"
+        },
+        "AttackStartH2HRight":{
+          "Strike Angle":"18.000000"
+        },
+        "attackStartPowerChop":{
+          "Strike Angle":"27.000000"
+        },
+        "attackStartX2":{
+          "Strike Angle":"30.000000"
+        }
+      }
+    },
+    "MudcrabRace":{
+      "Unarmed Reach":"120.000000",
+      "Angular Acceleration":"0.450000",
+      "Angle Tolerance":"30.000000",
+      "Attacks":{
+        "AttackStartLungeBite":{
+          "Strike Angle":"22.000000"
+        },
+        "AttackStart_ComboChop":{
+          "Strike Angle":"25.000000"
+        },
+        "AttackStart_LeftChop":{
+          "Strike Angle":"25.000000"
+        },
+        "AttackStart_LSide":{
+          "Strike Angle":"25.000000"
+        },
+        "AttackStart_RightChop":{
+          "Strike Angle":"25.000000"
+        },
+        "AttackStart_RSide":{
+          "Strike Angle":"25.000000"
+        }
+      }
+    },
+    "SkeletonRace":{
+      "Unarmed Reach":"96.000000",
+      "Angular Acceleration":"0.850000",
+      "Angle Tolerance":"0.000000",
+      "Attacks":{
+        "attackStart1HMBackSlash":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStart1HMPowerChop":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart1HMPowerSlash":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStart1HMSwipe":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStart1HMX2":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStart2HMBackSwipe":{
+          "Strike Angle":"45.000000"
+        },
+        "attackStart2HMForwardPowerChop":{
+          "Strike Angle":"27.000000"
+        },
+        "attackStart2HMForwardSwipe":{
+          "Strike Angle":"45.000000"
+        },
+        "attackStart2HMPowerChop":{
+          "Strike Angle":"27.000000"
+        },
+        "attackStart2HMSlash":{
+          "Strike Angle":"45.000000"
+        },
+        "attackStartGSBackSlash":{
+          "Strike Angle":"45.000000"
+        },
+        "attackStartGSChop":{
+          "Strike Angle":"27.000000"
+        },
+        "attackStartGSForwardPowerB":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStartGSX2":{
+          "Strike Angle":"40.000000"
+        },
+        "AttackStartH2HLeft":{
+          "Strike Angle":"18.000000"
+        },
+        "AttackStartH2HRight":{
+          "Strike Angle":"18.000000"
+        }
+      }
+    },
+    "ChaurusReaperRace":{
+      "Unarmed Reach":"96.080002",
+      "Angular Acceleration":"0.925000",
+      "Angle Tolerance":"0.000000",
+      "Attacks":{
+        "AttackStartLungeBite":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_Bite1":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_Bite2":{
+          "Strike Angle":"25.000000"
+        },
+        "AttackStart_ComboChop":{
+          "Strike Angle":"25.000000"
+        },
+        "AttackStart_LBite4":{
+          "Strike Angle":"25.000000"
+        },
+        "AttackStart_LeftChop":{
+          "Strike Angle":"25.000000"
+        },
+        "AttackStart_LeftSide":{
+          "Strike Angle":"25.000000"
+        },
+        "AttackStart_LHeadBash":{
+          "Strike Angle":"25.000000"
+        },
+        "AttackStart_RBite3":{
+          "Strike Angle":"25.000000"
+        },
+        "AttackStart_RHeadBash":{
+          "Strike Angle":"25.000000"
+        },
+        "AttackStart_RightChop":{
+          "Strike Angle":"25.000000"
+        },
+        "AttackStart_RightSide":{
+          "Strike Angle":"25.000000"
+        }
+      }
+    },
+    "SprigganSwarmRace":{
+      "Unarmed Reach":"64.000000",
+      "Angular Acceleration":"0.500000",
+      "Angle Tolerance":"0.000000",
+      "Attacks":{
+        "attackStart_Attack1":{
+          "Strike Angle":"25.000000"
+        }
+      }
+    },
+    "SwarmRace":{
+      "Unarmed Reach":"64.000000",
+      "Angular Acceleration":"0.400000",
+      "Angle Tolerance":"0.000000",
+      "Attacks":{
+        "attackStart_Attack1":{
+          "Strike Angle":"25.000000"
+        }
+      }
+    },
+    "FrostbiteSpiderRaceLarge":{
+      "Unarmed Reach":"96.000000",
+      "Angular Acceleration":"0.650000",
+      "Angle Tolerance":"10.000000",
+      "Attacks":{
+        "attackStart":{
+          "Strike Angle":"18.000000"
+        },
+        "AttackStartLungeBite":{
+          "Strike Angle":"18.000000"
+        },
+        "attackStart_Bite1":{
+          "Strike Angle":"18.000000"
+        },
+        "attackStart_Bite2":{
+          "Strike Angle":"18.000000"
+        },
+        "AttackStart_ComboChop":{
+          "Strike Angle":"12.000000"
+        },
+        "AttackStart_LeftChop":{
+          "Strike Angle":"12.000000"
+        },
+        "AttackStart_RightChop":{
+          "Strike Angle":"12.000000"
+        },
+        "bashPowerStart":{
+          "Strike Angle":"18.000000"
+        },
+        "bashStart":{
+          "Strike Angle":"18.000000"
+        }
+      }
+    },
+    "FrostbiteSpiderRaceGiant":{
+      "Unarmed Reach":"90.000000",
+      "Angular Acceleration":"0.750000",
+      "Angle Tolerance":"0.000000",
+      "Attacks":{
+        "attackStart":{
+          "Strike Angle":"18.000000"
+        },
+        "AttackStartLungeBite":{
+          "Strike Angle":"18.000000"
+        },
+        "attackStart_Bite1":{
+          "Strike Angle":"18.000000"
+        },
+        "attackStart_Bite2":{
+          "Strike Angle":"18.000000"
+        },
+        "AttackStart_ComboChop":{
+          "Strike Angle":"12.000000"
+        },
+        "AttackStart_LeftChop":{
+          "Strike Angle":"12.000000"
+        },
+        "AttackStart_RightChop":{
+          "Strike Angle":"12.000000"
+        },
+        "bashPowerStart":{
+          "Strike Angle":"18.000000"
+        },
+        "bashStart":{
+          "Strike Angle":"18.000000"
+        }
+      }
+    },
+    "WolfRace":{
+      "Unarmed Reach":"64.000000",
+      "Angular Acceleration":"0.625000",
+      "Angle Tolerance":"0.000000",
+      "Attacks":{
+        "attackStart_Attack1":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_Attack2":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_AttackLeft1":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_AttackLeft2":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_AttackRight1":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_AttackRight2":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_ForwardPower":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_ForwardPowerShort":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_SkeeverLungeLong":{
+          "Strike Angle":"23.000000"
+        },
+        "attackStart_SkeeverLungeMedium":{
+          "Strike Angle":"23.000000"
+        },
+        "attackStart_SkeeverLungeShort":{
+          "Strike Angle":"23.000000"
+        },
+        "attackStart_StandingPower":{
+          "Strike Angle":"28.000000"
+        }
+      }
+    },
+    "WitchlightRace":{
+      "Unarmed Reach":"64.000000",
+      "Angular Acceleration":"0.450000",
+      "Angle Tolerance":"0.000000",
+      "Attacks":{
+        "attackStart_Attack1":{
+          "Strike Angle":"25.000000"
+        }
+      }
+    },
+    "WispRace":{
+      "Unarmed Reach":"96.000000",
+      "Angular Acceleration":"0.800000",
+      "Angle Tolerance":"0.000000",
+      "Attacks":{
+        "attackStart_Attack1":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_Attack2":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_TouchPush":{
+          "Strike Angle":"25.000000"
+        },
+        "bashStart":{
+          "Strike Angle":"25.000000"
+        }
+      }
+    },
+    "TrollFrostRace":{
+      "Unarmed Reach":"125.000000",
+      "Angular Acceleration":"0.900000",
+      "Angle Tolerance":"20.000000",
+      "Attacks":{
+
+      }
+    },
+    "TrollRace":{
+      "Unarmed Reach":"125.000000",
+      "Angular Acceleration":"0.900000",
+      "Angle Tolerance":"20.000000",
+      "Attacks":{
+
+      }
+    },
+    "SprigganRace":{
+      "Unarmed Reach":"96.000000",
+      "Angular Acceleration":"0.450000",
+      "Angle Tolerance":"0.000000",
+      "Attacks":{
+        "attackStart_PowerAttackForward":{
+          "Strike Angle":"45.000000"
+        }
+      }
+    },
+    "SlaughterfishRace":{
+      "Unarmed Reach":"64.000000",
+      "Angular Acceleration":"0.400000",
+      "Angle Tolerance":"0.000000",
+      "Attacks":{
+        "AttackStart_LCross":{
+          "Strike Angle":"18.000000"
+        },
+        "AttackStart_LSlash":{
+          "Strike Angle":"18.000000"
+        },
+        "AttackStart_RCorss":{
+          "Strike Angle":"18.000000"
+        },
+        "AttackStart_RUppercut":{
+          "Strike Angle":"18.000000"
+        }
+      }
+    },
+    "SabreCatSnowyRace":{
+      "Unarmed Reach":"85.000000",
+      "Angular Acceleration":"0.550000",
+      "Angle Tolerance":"0.000000",
+      "Attacks":{
+        "attackStart_Attack1":{
+          "Strike Angle":"30.000000"
+        },
+        "attackStart_Attack2":{
+          "Strike Angle":"30.000000"
+        },
+        "attackStart_AttackLeft1":{
+          "Strike Angle":"30.000000"
+        },
+        "attackStart_AttackLeft2":{
+          "Strike Angle":"35.000000"
+        },
+        "attackStart_AttackRight1":{
+          "Strike Angle":"30.000000"
+        },
+        "attackStart_AttackRight2":{
+          "Strike Angle":"35.000000"
+        },
+        "attackStart_ForwardPower":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_ForwardPowerShort":{
+          "Strike Angle":"25.000000"
+        }
+      }
+    },
+    "SkeeverRace":{
+      "Unarmed Reach":"64.000000",
+      "Angular Acceleration":"0.500000",
+      "Angle Tolerance":"0.000000",
+      "Attacks":{
+        "attackStart_Attack1":{
+          "Strike Angle":"22.000000"
+        },
+        "attackStart_Attack2":{
+          "Strike Angle":"22.000000"
+        },
+        "attackStart_ForwardPower":{
+          "Strike Angle":"22.000000"
+        },
+        "attackStart_SkeeverLungeLong":{
+          "Strike Angle":"22.000000"
+        },
+        "attackStart_SkeeverLungeMedium":{
+          "Strike Angle":"22.000000"
+        },
+        "attackStart_SkeeverLungeShort":{
+          "Strike Angle":"22.000000"
+        }
+      }
+    },
+    "SabreCatRace":{
+      "Unarmed Reach":"85.000000",
+      "Angular Acceleration":"0.550000",
+      "Angle Tolerance":"0.000000",
+      "Attacks":{
+        "attackStart_Attack1":{
+          "Strike Angle":"30.000000"
+        },
+        "attackStart_Attack2":{
+          "Strike Angle":"30.000000"
+        },
+        "attackStart_AttackLeft1":{
+          "Strike Angle":"30.000000"
+        },
+        "attackStart_AttackLeft2":{
+          "Strike Angle":"35.000000"
+        },
+        "attackStart_AttackRight1":{
+          "Strike Angle":"30.000000"
+        },
+        "attackStart_AttackRight2":{
+          "Strike Angle":"35.000000"
+        },
+        "attackStart_ForwardPower":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_ForwardPowerShort":{
+          "Strike Angle":"25.000000"
+        }
+      }
+    },
+    "MammothRace":{
+      "Unarmed Reach":"115.000000",
+      "Angular Acceleration":"1.850000",
+      "Angle Tolerance":"90.000000",
+      "Attacks":{
+        "attackStart_Attack1":{
+          "Strike Angle":"45.000000"
+        },
+        "attackStart_Attack2":{
+          "Strike Angle":"45.000000"
+        },
+        "attackStart_AttackLeft1":{
+          "Strike Angle":"45.000000"
+        },
+        "attackStart_AttackRight1":{
+          "Strike Angle":"45.000000"
+        },
+        "attackStart_ForwardPower":{
+          "Strike Angle":"30.000000"
+        },
+        "attackStart_StandingPower":{
+          "Strike Angle":"30.000000"
+        }
+      }
+    },
+    "IceWraithRace":{
+      "Unarmed Reach":"140.000000",
+      "Angular Acceleration":"0.450000",
+      "Angle Tolerance":"10.000000",
+      "Attacks":{
+        "attackPowerStart_GroundDive":{
+          "Strike Angle":"25.000000"
+        },
+        "attackPowerStart_PowerAttack":{
+          "Strike Angle":"22.000000"
+        },
+        "attackStart_AttackLtoR":{
+          "Strike Angle":"22.000000"
+        },
+        "attackStart_AttackRtoL":{
+          "Strike Angle":"22.000000"
+        }
+      }
+    },
+    "HorseRace":{
+      "Unarmed Reach":"96.000000",
+      "Angular Acceleration":"0.250000",
+      "Angle Tolerance":"0.000000",
+      "Attacks":{
+        "attackStart_Attack1":{
+          "Strike Angle":"18.000000"
+        },
+        "attackStart_Attack2":{
+          "Strike Angle":"18.000000"
+        }
+      }
+    },
+    "HorkerRace":{
+      "Unarmed Reach":"64.000000",
+      "Angular Acceleration":"2.500000",
+      "Angle Tolerance":"10.000000",
+      "Attacks":{
+        "attackStart_Attack2":{
+          "Strike Angle":"30.000000"
+        },
+        "attackStart_AttackLeft1":{
+          "Strike Angle":"30.000000"
+        },
+        "attackStart_AttackLeft2":{
+          "Strike Angle":"30.000000"
+        },
+        "attackStart_AttackRight1":{
+          "Strike Angle":"30.000000"
+        },
+        "attackStart_ForwardPowerShort":{
+          "Strike Angle":"30.000000"
+        },
+        "attackStart_HorkerSwim":{
+          "Strike Angle":"30.000000"
+        }
+      }
+    },
+    "HagravenRace":{
+      "Unarmed Reach":"64.000000",
+      "Angular Acceleration":"1.250000",
+      "Angle Tolerance":"0.000000",
+      "Attacks":{
+
+      }
+    },
+    "GiantRace":{
+      "Unarmed Reach":"512.000000",
+      "Angular Acceleration":"1.500000",
+      "Angle Tolerance":"20.000000",
+      "Attacks":{
+        "attackPowerStart_ForwardPowerAttack":{
+          "Strike Angle":"45.000000"
+        },
+        "attackPowerStart_Stomp":{
+          "Strike Angle":"140.000000"
+        },
+        "attackStart_BackAttack":{
+          "Strike Angle":"55.000000"
+        },
+        "attackStart_ClubAttack1":{
+          "Strike Angle":"45.000000"
+        },
+        "attackStart_ClubAttack2":{
+          "Strike Angle":"45.000000"
+        },
+        "attackStart_HandSwipeAttack":{
+          "Strike Angle":"45.000000"
+        },
+        "bashStart":{
+          "Strike Angle":"45.000000"
+        }
+      }
+    },
+    "FrostbiteSpiderRace":{
+      "Unarmed Reach":"80.000000",
+      "Angular Acceleration":"0.400000",
+      "Angle Tolerance":"10.000000",
+      "Attacks":{
+        "AttackStartLungeBite":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_Bite1":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_Bite2":{
+          "Strike Angle":"25.000000"
+        },
+        "AttackStart_ComboChop":{
+          "Strike Angle":"25.000000"
+        },
+        "AttackStart_LeftChop":{
+          "Strike Angle":"25.000000"
+        },
+        "AttackStart_RightChop":{
+          "Strike Angle":"25.000000"
+        },
+        "bashStart":{
+          "Strike Angle":"25.000000"
+        }
+      }
+    },
+    "AtronachStormRace":{
+      "Unarmed Reach":"140.000000",
+      "Angular Acceleration":"1.400000",
+      "Angle Tolerance":"0.000000",
+      "Attacks":{
+        "attackPowerStart_ForwardAttack":{
+          "Strike Angle":"30.000000"
+        },
+        "attackPowerStart_StandingAttack":{
+          "Strike Angle":"30.000000"
+        },
+        "attackStart_Attack_Swipe":{
+          "Strike Angle":"30.000000"
+        }
+      }
+    },
+    "AtronachFrostRace":{
+      "Unarmed Reach":"130.000000",
+      "Angular Acceleration":"0.950000",
+      "Angle Tolerance":"0.000000",
+      "Attacks":{
+        "attackStart_Attack_L1":{
+          "Strike Angle":"30.000000"
+        },
+        "attackStart_Attack_R1":{
+          "Strike Angle":"22.000000"
+        }
+      }
+    },
+    "AtronachFlameRace":{
+      "Unarmed Reach":"100.000000",
+      "Angular Acceleration":"1.250000",
+      "Angle Tolerance":"0.000000",
+      "Attacks":{
+        "attackStart_L1":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_PowerAttackForward1":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_PowerAttackForward2":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_R1":{
+          "Strike Angle":"25.000000"
+        }
+      }
+    },
+    "FalmerRace":{
+      "Unarmed Reach":"90.000000",
+      "Angular Acceleration":"0.900000",
+      "Angle Tolerance":"0.000000",
+      "Attacks":{
+        "attackStartAttack1":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStartAttack3":{
+          "Strike Angle":"40.000000"
+        }
+      }
+    },
+    "DwarvenSpiderRace":{
+      "Unarmed Reach":"92.000000",
+      "Angular Acceleration":"0.800000",
+      "Angle Tolerance":"10.000000",
+      "Attacks":{
+        "AttackStartLungeBite":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_ComboHigh":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_ComboLow":{
+          "Strike Angle":"25.000000"
+        },
+        "AttackStart_LeftStab":{
+          "Strike Angle":"25.000000"
+        },
+        "AttackStart_LeftState":{
+          "Strike Angle":"25.000000"
+        },
+        "AttackStart_RightStab":{
+          "Strike Angle":"25.000000"
+        },
+        "AttackStart_RightState":{
+          "Strike Angle":"25.000000"
+        },
+        "AttackStart_Spin":{
+          "Strike Angle":"25.000000"
+        }
+      }
+    },
+    "DwarvenSphereRace":{
+      "Unarmed Reach":"115.000000",
+      "Angular Acceleration":"1.000000",
+      "Angle Tolerance":"23.450001",
+      "Attacks":{
+        "attackStartBackSlash":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStartChop":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStartForwardPowerChop":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStartForwardPowerStab":{
+          "Strike Angle":"22.000000"
+        },
+        "attackStartSlash":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStartStab":{
+          "Strike Angle":"22.000000"
+        },
+        "bashStart":{
+          "Strike Angle":"35.000000"
+        }
+      }
+    },
+    "DwarvenCenturionRace":{
+      "Unarmed Reach":"180.000000",
+      "Angular Acceleration":"1.150000",
+      "Angle Tolerance":"15.000000",
+      "Attacks":{
+
+      }
+    },
+    "DragonPriestRace":{
+      "Unarmed Reach":"64.000000",
+      "Angular Acceleration":"1.000000",
+      "Angle Tolerance":"15.000000",
+      "Attacks":{
+
+      }
+    },
+    "DogRace":{
+      "Unarmed Reach":"64.000000",
+      "Angular Acceleration":"0.350000",
+      "Angle Tolerance":"0.000000",
+      "Attacks":{
+        "attackStart_Attack1":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_Attack2":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_ForwardPower":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_SkeeverLungeLong":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_SkeeverLungeShort":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_StandingPower":{
+          "Strike Angle":"25.000000"
+        }
+      }
+    },
+    "ChaurusRace":{
+      "Unarmed Reach":"96.089997",
+      "Angular Acceleration":"0.900000",
+      "Angle Tolerance":"0.000000",
+      "Attacks":{
+        "AttackStartLungeBite":{
+          "Strike Angle":"35.000000"
+        },
+        "attackStart_Bite1":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_Bite2":{
+          "Strike Angle":"25.000000"
+        },
+        "AttackStart_ComboChop":{
+          "Strike Angle":"25.000000"
+        },
+        "AttackStart_LBite4":{
+          "Strike Angle":"25.000000"
+        },
+        "AttackStart_LeftChop":{
+          "Strike Angle":"35.000000"
+        },
+        "AttackStart_LeftSide":{
+          "Strike Angle":"30.000000"
+        },
+        "AttackStart_LHeadBash":{
+          "Strike Angle":"35.000000"
+        },
+        "AttackStart_RBite3":{
+          "Strike Angle":"25.000000"
+        },
+        "AttackStart_RHeadBash":{
+          "Strike Angle":"35.000000"
+        },
+        "AttackStart_RightChop":{
+          "Strike Angle":"35.000000"
+        },
+        "AttackStart_RightSide":{
+          "Strike Angle":"30.000000"
+        }
+      }
+    },
+    "BearSnowRace":{
+      "Unarmed Reach":"80.000000",
+      "Angular Acceleration":"1.150000",
+      "Angle Tolerance":"0.000000",
+      "Attacks":{
+        "attackStart_Attack1":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStart_Attack2":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStart_AttackLeft1":{
+          "Strike Angle":"45.000000",
+          "Attack Angle":"-50.00000"
+        },
+        "attackStart_AttackRight1":{
+          "Strike Angle":"45.000000",
+          "Attack Angle":"50.00000"
+        }
+      }
+    },
+    "BearBlackRace":{
+      "Unarmed Reach":"80.000000",
+      "Angular Acceleration":"1.150000",
+      "Angle Tolerance":"0.000000",
+      "Attacks":{
+        "attackStart_Attack1":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStart_Attack2":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStart_AttackLeft1":{
+          "Strike Angle":"45.000000",
+          "Attack Angle":"-50.00000"
+        },
+        "attackStart_AttackRight1":{
+          "Strike Angle":"45.000000",
+          "Attack Angle":"50.00000"
+        }
+      }
+    },
+    "BearBrownRace":{
+      "Unarmed Reach":"80.000000",
+      "Angular Acceleration":"1.150000",
+      "Angle Tolerance":"0.000000",
+      "Attacks":{
+        "attackStart_AttackLeft1":{
+          "Strike Angle":"45.000000",
+          "Attack Angle":"-50.00000"
+        },
+        "attackStart_AttackRight1":{
+          "Strike Angle":"45.000000",
+          "Attack Angle":"50.00000"
+        }
+      }
+    },
+    "DragonRace":{
+      "Unarmed Reach":"256.000000",
+      "Angular Acceleration":"0.750000",
+      "Angle Tolerance":"41.750000",
+      "Attacks":{
+
+      }
+    },
+    "DraugrRace":{
+      "Unarmed Reach":"96.000000",
+      "Angular Acceleration":"0.800000",
+      "Angle Tolerance":"0.000000",
+      "Attacks":{
+        "attackStart1HMBackSlash":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStart1HMForwardPower":{
+          "Strike Angle":"35.000000"
+        },
+        "attackStart1HMPowerChop":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart1HMPowerSlash":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStart1HMSwipe":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStart1HMX2":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStart2HMBackSwipe":{
+          "Strike Angle":"45.000000"
+        },
+        "attackStart2HMForwardPowerChop":{
+          "Strike Angle":"27.000000"
+        },
+        "attackStart2HMForwardSwipe":{
+          "Strike Angle":"45.000000"
+        },
+        "attackStart2HMPowerChop":{
+          "Strike Angle":"27.000000"
+        },
+        "attackStart2HMSlash":{
+          "Strike Angle":"45.000000"
+        },
+        "attackStartGSBackSlash":{
+          "Strike Angle":"45.000000"
+        },
+        "attackStartGSChop":{
+          "Strike Angle":"27.000000"
+        },
+        "attackStartGSForwardPowerB":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStartGSX2":{
+          "Strike Angle":"40.000000"
+        },
+        "AttackStartH2HLeft":{
+          "Strike Angle":"18.000000"
+        },
+        "AttackStartH2HRight":{
+          "Strike Angle":"18.000000"
+        },
+        "bashStart":{
+          "Strike Angle":"40.000000"
+        }
+      }
+    },
+    "DLC1HuskyBareCompanionRace":{
+      "Unarmed Reach":"64.000000",
+      "Angular Acceleration":"0.350000",
+      "Angle Tolerance":"0.000000",
+      "Attacks":{
+        "attackStart_Attack1":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_Attack2":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_ForwardPower":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_SkeeverLungeLong":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_SkeeverLungeShort":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_StandingPower":{
+          "Strike Angle":"25.000000"
+        }
+      }
+    },
+    "DLC1GargoyleVariantBossRace":{
+      "Unarmed Reach":"130.000000",
+      "Angular Acceleration":"0.400000",
+      "Angle Tolerance":"0.000000",
+      "Attacks":{
+        "attackPowerStart_ForwardPowerDash":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStart_attackL":{
+          "Strike Angle":"32.000000"
+        },
+        "attackStart_attackR":{
+          "Strike Angle":"32.000000"
+        }
+      }
+    },
+    "DLC1DeathHoundCompanionRace":{
+      "Unarmed Reach":"74.000000",
+      "Angular Acceleration":"0.700000",
+      "Angle Tolerance":"0.000000",
+      "Attacks":{
+        "attackStart_Attack1":{
+          "Strike Angle":"28.000000"
+        },
+        "attackStart_Attack2":{
+          "Strike Angle":"28.000000"
+        },
+        "attackStart_ForwardPower":{
+          "Strike Angle":"28.000000"
+        },
+        "attackStart_SkeeverLungeLong":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_SkeeverLungeShort":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_StandingPower":{
+          "Strike Angle":"28.000000"
+        }
+      }
+    },
+    "DLC1HuskyArmoredCompanionRace":{
+      "Unarmed Reach":"75.000000",
+      "Angular Acceleration":"0.350000",
+      "Angle Tolerance":"0.000000",
+      "Attacks":{
+        "attackStart_Attack1":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_Attack2":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_ForwardPower":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_SkeeverLungeLong":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_SkeeverLungeShort":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_StandingPower":{
+          "Strike Angle":"25.000000"
+        }
+      }
+    },
+    "FalmerFrozenVampRace":{
+      "Unarmed Reach":"128.000000",
+      "Angular Acceleration":"0.400000",
+      "Angle Tolerance":"0.000000",
+      "Attacks":{
+        "attackStartAttack1":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStartAttack3":{
+          "Strike Angle":"40.000000"
+        }
+      }
+    },
+    "DLC1BlackSkeletonRace":{
+      "Unarmed Reach":"96.000000",
+      "Angular Acceleration":"0.850000",
+      "Angle Tolerance":"0.000000",
+      "Attacks":{
+        "attackStart1HMBackSlash":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStart1HMPowerChop":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart1HMPowerSlash":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStart1HMSwipe":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStart1HMX2":{
+          "Strike Angle":"35.000000"
+        },
+        "attackStart2HMBackSwipe":{
+          "Strike Angle":"45.000000"
+        },
+        "attackStart2HMForwardPowerChop":{
+          "Strike Angle":"27.000000"
+        },
+        "attackStart2HMForwardSwipe":{
+          "Strike Angle":"45.000000"
+        },
+        "attackStart2HMPowerChop":{
+          "Strike Angle":"27.000000"
+        },
+        "attackStart2HMSlash":{
+          "Strike Angle":"45.000000"
+        },
+        "attackStartGSBackSlash":{
+          "Strike Angle":"45.000000"
+        },
+        "attackStartGSChop":{
+          "Strike Angle":"27.000000"
+        },
+        "attackStartGSX2":{
+          "Strike Angle":"40.000000"
+        },
+        "AttackStartH2HLeft":{
+          "Strike Angle":"18.000000"
+        },
+        "AttackStartH2HRight":{
+          "Strike Angle":"18.000000"
+        }
+      }
+    },
+    "DLC1GargoyleVariantGreenRace":{
+      "Unarmed Reach":"130.000000",
+      "Angular Acceleration":"0.400000",
+      "Angle Tolerance":"0.000000",
+      "Attacks":{
+        "attackStart_attackL":{
+          "Strike Angle":"30.000000"
+        },
+        "attackStart_attackR":{
+          "Strike Angle":"30.000000"
+        }
+      }
+    },
+    "DLC1HuskyBareRace":{
+      "Unarmed Reach":"64.000000",
+      "Angular Acceleration":"0.350000",
+      "Angle Tolerance":"0.000000",
+      "Attacks":{
+        "attackStart_Attack1":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_Attack2":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_ForwardPower":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_SkeeverLungeLong":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_SkeeverLungeShort":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_StandingPower":{
+          "Strike Angle":"25.000000"
+        }
+      }
+    },
+    "DLC1HuskyArmoredRace":{
+      "Unarmed Reach":"75.000000",
+      "Angular Acceleration":"0.350000",
+      "Angle Tolerance":"0.000000",
+      "Attacks":{
+        "attackStart_Attack1":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_Attack2":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_ForwardPower":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_SkeeverLungeLong":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_SkeeverLungeShort":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_StandingPower":{
+          "Strike Angle":"25.000000"
+        }
+      }
+    },
+    "DLC1_BF_ChaurusRace":{
+      "Unarmed Reach":"96.089997",
+      "Angular Acceleration":"0.925000",
+      "Angle Tolerance":"10.000000",
+      "Attacks":{
+        "AttackStartLungeBite":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_Bite1":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_Bite2":{
+          "Strike Angle":"25.000000"
+        },
+        "AttackStart_LBite4":{
+          "Strike Angle":"25.000000"
+        },
+        "AttackStart_LeftChop":{
+          "Strike Angle":"35.000000"
+        },
+        "AttackStart_LeftSide":{
+          "Strike Angle":"30.000000"
+        },
+        "AttackStart_LHeadBash":{
+          "Strike Angle":"35.000000"
+        },
+        "AttackStart_RBite3":{
+          "Strike Angle":"25.000000"
+        },
+        "AttackStart_RHeadBash":{
+          "Strike Angle":"35.000000"
+        },
+        "AttackStart_RightChop":{
+          "Strike Angle":"35.000000"
+        },
+        "AttackStart_RightSide":{
+          "Strike Angle":"30.000000"
+        },
+        "AttackStart_ComboChop":{
+          "Strike Angle":"35.000000",
+          "Attack Angle":"25.0000"
+        }
+      }
+    },
+    "SprigganEarthMotherRace":{
+      "Unarmed Reach":"96.000000",
+      "Angular Acceleration":"0.400000",
+      "Angle Tolerance":"0.000000",
+      "Attacks":{
+        "attackStart_PowerAttackForward":{
+          "Strike Angle":"45.000000"
+        }
+      }
+    },
+    "DLC1TrollRaceArmored":{
+      "Unarmed Reach":"125.000000",
+      "Angular Acceleration":"0.900000",
+      "Angle Tolerance":"20.000000",
+      "Attacks":{
+
+      }
+    },
+    "DLC1TrollFrostRaceArmored":{
+      "Unarmed Reach":"125.000000",
+      "Angular Acceleration":"0.900000",
+      "Angle Tolerance":"20.000000",
+      "Attacks":{
+        "attackStartBackwardPower":{
+          "Strike Angle":"25.000000"
+        }
+      }
+    },
+    "DLC1UndeadDragonRace":{
+      "Unarmed Reach":"256.000000",
+      "Angular Acceleration":"0.400000",
+      "Angle Tolerance":"41.750000",
+      "Attacks":{
+
+      }
+    },
+    "DLC1SabreCatGlowRace":{
+      "Unarmed Reach":"85.000000",
+      "Angular Acceleration":"0.550000",
+      "Angle Tolerance":"0.000000",
+      "Attacks":{
+        "attackStart_Attack1":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_Attack2":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_AttackLeft1":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_AttackLeft2":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_AttackRight1":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_AttackRight2":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_ForwardPower":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_ForwardPowerShort":{
+          "Strike Angle":"25.000000"
+        }
+      }
+    },
+    "DLC1DeathHoundRace":{
+      "Unarmed Reach":"74.000000",
+      "Angular Acceleration":"0.700000",
+      "Angle Tolerance":"0.000000",
+      "Attacks":{
+        "attackStart_Attack1":{
+          "Strike Angle":"28.000000"
+        },
+        "attackStart_Attack2":{
+          "Strike Angle":"28.000000"
+        },
+        "attackStart_ForwardPower":{
+          "Strike Angle":"28.000000"
+        },
+        "attackStart_SkeeverLungeLong":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_SkeeverLungeShort":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_StandingPower":{
+          "Strike Angle":"28.000000"
+        }
+      }
+    },
+    "DLC01SoulCairnBonemanRace":{
+      "Unarmed Reach":"96.000000",
+      "Angular Acceleration":"0.850000",
+      "Angle Tolerance":"0.000000",
+      "Attacks":{
+        "attackStart1HMBackSlash":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStart1HMPowerChop":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart1HMPowerSlash":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStart1HMSwipe":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStart1HMX2":{
+          "Strike Angle":"35.000000"
+        },
+        "attackStart2HMBackSwipe":{
+          "Strike Angle":"45.000000"
+        },
+        "attackStart2HMForwardPowerChop":{
+          "Strike Angle":"27.000000"
+        },
+        "attackStart2HMForwardSwipe":{
+          "Strike Angle":"45.000000"
+        },
+        "attackStart2HMPowerChop":{
+          "Strike Angle":"27.000000"
+        },
+        "attackStart2HMSlash":{
+          "Strike Angle":"45.000000"
+        },
+        "attackStartGSBackSlash":{
+          "Strike Angle":"45.000000"
+        },
+        "attackStartGSChop":{
+          "Strike Angle":"27.000000"
+        },
+        "attackStartGSForwardPowerB":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStartGSX2":{
+          "Strike Angle":"40.000000"
+        },
+        "AttackStartH2HLeft":{
+          "Strike Angle":"18.000000"
+        },
+        "AttackStartH2HRight":{
+          "Strike Angle":"18.000000"
+        }
+      }
+    },
+    "DLC1GargoyleRace":{
+      "Unarmed Reach":"130.000000",
+      "Angular Acceleration":"0.400000",
+      "Angle Tolerance":"0.000000",
+      "Attacks":{
+        "attackPowerStart_ForwardPowerAttack":{
+          "Strike Angle":"35.000000"
+        },
+        "attackPowerStart_ForwardPowerDash":{
+          "Strike Angle":"40.000000"
+        },
+        "attackPowerStart_Standing":{
+          "Strike Angle":"35.000000"
+        },
+        "attackStart_attackL":{
+          "Strike Angle":"35.000000"
+        },
+        "attackStart_attackR":{
+          "Strike Angle":"35.000000"
+        }
+      }
+    },
+    "DLC1SoulCairnSkeletonArmorRace":{
+      "Unarmed Reach":"96.000000",
+      "Angular Acceleration":"0.850000",
+      "Angle Tolerance":"0.000000",
+      "Attacks":{
+        "attackStart1HMBackSlash":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStart1HMForwardPower":{
+          "Strike Angle":"35.000000"
+        },
+        "attackStart1HMPowerChop":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart1HMPowerSlash":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStart1HMSwipe":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStart1HMX2":{
+          "Strike Angle":"35.000000"
+        },
+        "attackStart2HMBackSwipe":{
+          "Strike Angle":"50.000000"
+        },
+        "attackStart2HMForwardPowerChop":{
+          "Strike Angle":"30.000000"
+        },
+        "attackStart2HMForwardSwipe":{
+          "Strike Angle":"50.000000"
+        },
+        "attackStart2HMPowerChop":{
+          "Strike Angle":"30.000000"
+        },
+        "attackStart2HMSlash":{
+          "Strike Angle":"50.000000"
+        },
+        "attackStartGSBackSlash":{
+          "Strike Angle":"50.000000"
+        },
+        "attackStartGSChop":{
+          "Strike Angle":"30.000000"
+        },
+        "attackStartGSForwardPowerB":{
+          "Strike Angle":"45.000000"
+        },
+        "attackStartGSX2":{
+          "Strike Angle":"45.000000"
+        },
+        "AttackStartH2HLeft":{
+          "Strike Angle":"18.000000"
+        },
+        "AttackStartH2HRight":{
+          "Strike Angle":"18.000000"
+        },
+        "bashStart":{
+          "Strike Angle":"35.000000"
+        }
+      }
+    },
+    "DLC1SoulCairnKeeperRace":{
+      "Unarmed Reach":"96.000000",
+      "Angular Acceleration":"1.000000",
+      "Angle Tolerance":"0.000000",
+      "Attacks":{
+        "attackStart1HMBackSlash":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStart1HMForwardPower":{
+          "Strike Angle":"35.000000"
+        },
+        "attackStart1HMPowerChop":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart1HMPowerSlash":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStart1HMSwipe":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStart1HMX2":{
+          "Strike Angle":"35.000000"
+        },
+        "attackStart2HMBackSwipe":{
+          "Strike Angle":"45.000000"
+        },
+        "attackStart2HMForwardPowerChop":{
+          "Strike Angle":"27.000000"
+        },
+        "attackStart2HMForwardSwipe":{
+          "Strike Angle":"45.000000"
+        },
+        "attackStart2HMPowerChop":{
+          "Strike Angle":"27.000000"
+        },
+        "attackStart2HMSlash":{
+          "Strike Angle":"45.000000"
+        },
+        "attackStartGSBackSlash":{
+          "Strike Angle":"45.000000"
+        },
+        "attackStartGSChop":{
+          "Strike Angle":"27.000000"
+        },
+        "attackStartGSForwardPowerB":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStartGSX2":{
+          "Strike Angle":"40.000000"
+        },
+        "AttackStartH2HLeft":{
+          "Strike Angle":"18.000000"
+        },
+        "AttackStartH2HRight":{
+          "Strike Angle":"18.000000"
+        },
+        "bashStart":{
+          "Strike Angle":"35.000000"
+        }
+      }
+    },
+    "DLC1SoulCairnSkeletonNecroRace":{
+      "Unarmed Reach":"96.000000",
+      "Angular Acceleration":"0.850000",
+      "Angle Tolerance":"0.000000",
+      "Attacks":{
+        "attackStart1HMBackSlash":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStart1HMPowerChop":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart1HMPowerSlash":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStart1HMSwipe":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStart1HMX2":{
+          "Strike Angle":"35.000000"
+        },
+        "attackStart2HMForwardPowerChop":{
+          "Strike Angle":"30.000000"
+        },
+        "attackStart2HMPowerChop":{
+          "Strike Angle":"30.000000"
+        },
+        "attackStartGSChop":{
+          "Strike Angle":"30.000000"
+        },
+        "attackStartGSForwardPowerB":{
+          "Strike Angle":"45.000000"
+        },
+        "attackStartGSX2":{
+          "Strike Angle":"45.000000"
+        },
+        "AttackStartH2HLeft":{
+          "Strike Angle":"18.000000"
+        },
+        "AttackStartH2HRight":{
+          "Strike Angle":"18.000000"
+        }
+      }
+    },
+    "DLC1ChaurusHunterRace":{
+      "Unarmed Reach":"100.000000",
+      "Angular Acceleration":"0.800000",
+      "Angle Tolerance":"10.000000",
+      "Attacks":{
+        "attackPowerStart_PowerAttack":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_AttackLtoR":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_AttackRtoL":{
+          "Strike Angle":"25.000000"
+        }
+      }
+    },
+    "SkeletonArmorRace":{
+      "Unarmed Reach":"96.000000",
+      "Angular Acceleration":"0.800000",
+      "Angle Tolerance":"0.000000",
+      "Attacks":{
+        "attackStart1HMBackSlash":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStart1HMForwardPower":{
+          "Strike Angle":"35.000000"
+        },
+        "attackStart1HMPowerChop":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart1HMPowerSlash":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStart1HMSwipe":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStart1HMX2":{
+          "Strike Angle":"35.000000"
+        },
+        "attackStart2HMBackSwipe":{
+          "Strike Angle":"45.000000"
+        },
+        "attackStart2HMForwardPowerChop":{
+          "Strike Angle":"27.000000"
+        },
+        "attackStart2HMForwardSwipe":{
+          "Strike Angle":"45.000000"
+        },
+        "attackStart2HMPowerChop":{
+          "Strike Angle":"27.000000"
+        },
+        "attackStart2HMSlash":{
+          "Strike Angle":"45.000000"
+        },
+        "attackStartGSBackSlash":{
+          "Strike Angle":"45.000000"
+        },
+        "attackStartGSChop":{
+          "Strike Angle":"27.000000"
+        },
+        "attackStartGSForwardPowerB":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStartGSX2":{
+          "Strike Angle":"40.000000"
+        },
+        "AttackStartH2HLeft":{
+          "Strike Angle":"18.000000"
+        },
+        "AttackStartH2HRight":{
+          "Strike Angle":"18.000000"
+        },
+        "bashStart":{
+          "Strike Angle":"35.000000"
+        }
+      }
+    },
+    "DLC2AcolyteDragonPriestRace":{
+      "Unarmed Reach":"64.000000",
+      "Angular Acceleration":"1.000000",
+      "Angle Tolerance":"15.000000",
+      "Attacks":{
+
+      }
+    },
+    "DLC2DragonBlackRace":{
+      "Unarmed Reach":"256.000000",
+      "Angular Acceleration":"0.450000",
+      "Angle Tolerance":"41.750000",
+      "Attacks":{
+
+      }
+    },
+    "DragonBlackRace":{
+      "Unarmed Reach":"256.000000",
+      "Angular Acceleration":"0.450000",
+      "Angle Tolerance":"41.750000",
+      "Attacks":{
+
+      }
+    },
+    "DLC2DwarvenBallistaRace":{
+      "Unarmed Reach":"108.000000",
+      "Angular Acceleration":"1.000000",
+      "Angle Tolerance":"23.450001",
+      "Attacks":{
+        "attackStartBackSlash":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStartChop":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStartForwardPowerChop":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStartForwardPowerStab":{
+          "Strike Angle":"22.000000"
+        },
+        "attackStartSlash":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStartStab":{
+          "Strike Angle":"22.000000"
+        },
+        "bashStart":{
+          "Strike Angle":"35.000000"
+        }
+      }
+    },
+    "DLC2HulkingDraugrRace":{
+      "Unarmed Reach":"96.000000",
+      "Angular Acceleration":"0.850000",
+      "Angle Tolerance":"0.000000",
+      "Attacks":{
+        "attackStart1HMBackSlash":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStart1HMForwardPower":{
+          "Strike Angle":"35.000000"
+        },
+        "attackStart1HMPowerChop":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart1HMPowerSlash":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStart1HMSwipe":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStart1HMX2":{
+          "Strike Angle":"35.000000"
+        },
+        "attackStart2HMBackSwipe":{
+          "Strike Angle":"45.000000"
+        },
+        "attackStart2HMForwardPowerChop":{
+          "Strike Angle":"27.000000"
+        },
+        "attackStart2HMForwardSwipe":{
+          "Strike Angle":"45.000000"
+        },
+        "attackStart2HMPowerChop":{
+          "Strike Angle":"27.000000"
+        },
+        "attackStart2HMSlash":{
+          "Strike Angle":"45.000000"
+        },
+        "attackStartGSBackSlash":{
+          "Strike Angle":"45.000000"
+        },
+        "attackStartGSChop":{
+          "Strike Angle":"27.000000"
+        },
+        "attackStartGSForwardPowerB":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStartGSX2":{
+          "Strike Angle":"40.000000"
+        },
+        "AttackStartH2HLeft":{
+          "Strike Angle":"18.000000"
+        },
+        "AttackStartH2HRight":{
+          "Strike Angle":"18.000000"
+        },
+        "bashStart":{
+          "Strike Angle":"40.000000"
+        }
+      }
+    },
+    "DLC2dunInstrumentsRace":{
+      "Unarmed Reach":"0.000000",
+      "Angular Acceleration":"0.350000",
+      "Angle Tolerance":"0.000000",
+      "Attacks":{
+
+      }
+    },
+    "DLC2dunKarstaagIceWraithRace":{
+      "Unarmed Reach":"140.000000",
+      "Angular Acceleration":"0.350000",
+      "Angle Tolerance":"10.000000",
+      "Attacks":{
+        "attackPowerStart_PowerAttack":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_AttackLtoR":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_AttackRtoL":{
+          "Strike Angle":"25.000000"
+        }
+      }
+    },
+    "dlc2AshGuardianRace":{
+      "Unarmed Reach":"150.000000",
+      "Angular Acceleration":"1.250000",
+      "Angle Tolerance":"0.000000",
+      "Attacks":{
+
+      }
+    },
+    "DLC2ExpSpiderPackmuleRace":{
+      "Unarmed Reach":"90.000000",
+      "Angular Acceleration":"0.350000",
+      "Angle Tolerance":"23.000000",
+      "Attacks":{
+        "AttackStartLungeBite":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_Bite1":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart_Bite2":{
+          "Strike Angle":"25.000000"
+        },
+        "AttackStart_ComboChop":{
+          "Strike Angle":"25.000000"
+        },
+        "AttackStart_LeftChop":{
+          "Strike Angle":"25.000000"
+        },
+        "AttackStart_RightChop":{
+          "Strike Angle":"25.000000"
+        },
+        "bashStart":{
+          "Strike Angle":"25.000000"
+        }
+      }
+    },
+    "DLC2BoarRace":{
+      "Unarmed Reach":"64.000000",
+      "Angular Acceleration":"0.750000",
+      "Angle Tolerance":"0.000000",
+      "Attacks":{
+        "attackStart_Attack1":{
+          "Strike Angle":"30.000000"
+        },
+        "attackStart_AttackLeft1":{
+          "Strike Angle":"30.000000"
+        },
+        "attackStart_AttackRight1":{
+          "Strike Angle":"30.000000"
+        },
+        "attackStart_ForwardPowerShort":{
+          "Strike Angle":"30.000000"
+        }
+      }
+    },
+    "DLC2WerebearBeastRace":{
+      "Unarmed Reach":"130.000000",
+      "Angular Acceleration":"0.900000",
+      "Angle Tolerance":"45.000000",
+      "Attacks":{
+        "AttackStartBackHand":{
+          "Strike Angle":"42.000000"
+        },
+        "AttackStartDual":{
+          "Strike Angle":"42.000000"
+        },
+        "AttackStartDualRunning":{
+          "Strike Angle":"42.000000"
+        },
+        "AttackStartDualSprinting":{
+          "Strike Angle":"42.000000"
+        },
+        "AttackStartHowlExplode":{
+          "Strike Angle":"42.000000"
+        },
+        "attackStartLeft":{
+          "Strike Angle":"42.000000"
+        },
+        "AttackStartLeftPower":{
+          "Strike Angle":"42.000000"
+        },
+        "AttackStartLeftRunningPower":{
+          "Strike Angle":"42.000000"
+        },
+        "AttackStartLeftSide":{
+          "Strike Angle":"30.000000"
+        },
+        "AttackStartLeftSprinting":{
+          "Strike Angle":"42.000000"
+        },
+        "attackStartRight":{
+          "Strike Angle":"42.000000"
+        },
+        "attackStartRightPower":{
+          "Strike Angle":"42.000000"
+        },
+        "AttackStartRightRunningPower":{
+          "Strike Angle":"42.000000"
+        },
+        "AttackStartRightSide":{
+          "Strike Angle":"30.000000"
+        },
+        "AttackStartRightSprinting":{
+          "Strike Angle":"42.000000"
+        }
+      }
+    },
+    "DLC2GhostFrostGiantRace":{
+      "Unarmed Reach":"512.000000",
+      "Angular Acceleration":"1.250000",
+      "Angle Tolerance":"20.000000",
+      "Attacks":{
+        "attackPowerStart_ForwardPowerAttack":{
+          "Strike Angle":"40.000000"
+        },
+        "attackPowerStart_Stomp":{
+          "Strike Angle":"140.000000"
+        },
+        "attackStart_BackAttack":{
+          "Strike Angle":"45.000000"
+        },
+        "attackStart_ClubAttack1":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStart_ClubAttack2":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStart_HandSwipeAttack":{
+          "Strike Angle":"40.000000"
+        },
+        "bashStart":{
+          "Strike Angle":"45.000000"
+        }
+      }
+    },
+    "DLC2AshHopperRace":{
+      "Unarmed Reach":"128.000000",
+      "Angular Acceleration":"0.450000",
+      "Angle Tolerance":"23.000000",
+      "Attacks":{
+        "attackStart_AttackLeft1":{
+          "Strike Angle":"35.000000"
+        },
+        "attackStart_AttackRight1":{
+          "Strike Angle":"35.000000"
+        }
+      }
+    },
+    "DLC2MudcrabSolstheimRace":{
+      "Unarmed Reach":"100.000000",
+      "Angular Acceleration":"0.350000",
+      "Angle Tolerance":"30.000000",
+      "Attacks":{
+        "AttackStartLungeBite":{
+          "Strike Angle":"22.000000"
+        },
+        "AttackStart_ComboChop":{
+          "Strike Angle":"25.000000"
+        },
+        "AttackStart_LeftChop":{
+          "Strike Angle":"25.000000"
+        },
+        "AttackStart_LSide":{
+          "Strike Angle":"25.000000"
+        },
+        "AttackStart_RightChop":{
+          "Strike Angle":"25.000000"
+        },
+        "AttackStart_RSide":{
+          "Strike Angle":"25.000000"
+        }
+      }
+    },
+    "DLC2SprigganBurntRace":{
+      "Unarmed Reach":"96.000000",
+      "Angular Acceleration":"0.350000",
+      "Angle Tolerance":"0.000000",
+      "Attacks":{
+        "attackStart_PowerAttackForward":{
+          "Strike Angle":"45.000000"
+        }
+      }
+    },
+    "DLC2AshSpawnRace":{
+      "Unarmed Reach":"96.000000",
+      "Angular Acceleration":"0.800000",
+      "Angle Tolerance":"0.000000",
+      "Attacks":{
+        "attackStart1HMBackSlash":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStart1HMForwardPower":{
+          "Strike Angle":"35.000000"
+        },
+        "attackStart1HMPowerChop":{
+          "Strike Angle":"25.000000"
+        },
+        "attackStart1HMPowerSlash":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStart1HMSwipe":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStart1HMX2":{
+          "Strike Angle":"35.000000"
+        },
+        "attackStart2HMBackSwipe":{
+          "Strike Angle":"45.000000"
+        },
+        "attackStart2HMForwardPowerChop":{
+          "Strike Angle":"27.000000"
+        },
+        "attackStart2HMForwardSwipe":{
+          "Strike Angle":"45.000000"
+        },
+        "attackStart2HMPowerChop":{
+          "Strike Angle":"27.000000"
+        },
+        "attackStart2HMSlash":{
+          "Strike Angle":"45.000000"
+        },
+        "attackStartGSBackSlash":{
+          "Strike Angle":"45.000000"
+        },
+        "attackStartGSChop":{
+          "Strike Angle":"27.000000"
+        },
+        "attackStartGSForwardPowerB":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStartGSX2":{
+          "Strike Angle":"40.000000"
+        },
+        "AttackStartH2HLeft":{
+          "Strike Angle":"18.000000"
+        },
+        "AttackStartH2HRight":{
+          "Strike Angle":"18.000000"
+        },
+        "bashStart":{
+          "Strike Angle":"35.000000"
+        }
+      }
+    },
+    "DLC2ThirskRieklingRace":{
+      "Unarmed Reach":"64.000000",
+      "Angular Acceleration":"0.400000",
+      "Angle Tolerance":"20.000000",
+      "Attacks":{
+        "attackStart_Attack1":{
+          "Strike Angle":"30.000000"
+        }
+      }
+    },
+    "DLC2RieklingRace":{
+      "Unarmed Reach":"64.000000",
+      "Angular Acceleration":"0.400000",
+      "Angle Tolerance":"20.000000",
+      "Attacks":{
+        "attackPowerStart_ForwardSpear":{
+          "Strike Angle":"30.000000"
+        },
+        "attackPowerStart_StandingSpear":{
+          "Strike Angle":"30.000000"
+        },
+        "attackStart_MT_Attack1":{
+          "Strike Angle":"30.000000"
+        },
+        "attackStart_Spear_Attack1":{
+          "Strike Angle":"30.000000"
+        }
+      }
+    },
+    "DLC2LurkerRace":{
+      "Unarmed Reach":"300.000000",
+      "Angular Acceleration":"1.050000",
+      "Angle Tolerance":"20.000000",
+      "Attacks":{
+        "attackPowerStart_ForwardPowerAttack":{
+          "Strike Angle":"40.000000"
+        },
+        "attackPowerStart_Stomp":{
+          "Strike Angle":"140.000000"
+        },
+        "attackStart_BackAttack":{
+          "Strike Angle":"50.000000"
+        },
+        "attackStart_ClubAttack1":{
+          "Strike Angle":"40.000000"
+        },
+        "attackStart_HandSwipeAttack":{
+          "Strike Angle":"35.000000"
+        },
+        "bashStart":{
+          "Strike Angle":"40.000000"
+        }
+      }
+    },
+    "DLC2ExpSpiderBaseRace":{
+      "Unarmed Reach":"90.000000",
+      "Angular Acceleration":"0.350000",
+      "Angle Tolerance":"23.000000",
+      "Attacks":{
+        "AttackStartLungeBite":{
+          "Strike Angle":"22.000000"
+        },
+        "attackStart_Bite1":{
+          "Strike Angle":"22.000000"
+        },
+        "attackStart_Bite2":{
+          "Strike Angle":"22.000000"
+        },
+        "AttackStart_ComboChop":{
+          "Strike Angle":"22.000000"
+        },
+        "AttackStart_LeftChop":{
+          "Strike Angle":"22.000000"
+        },
+        "AttackStart_RightChop":{
+          "Strike Angle":"22.000000"
+        },
+        "bashStart":{
+          "Strike Angle":"22.000000"
+        }
+      }
+    }
+  }
+}
