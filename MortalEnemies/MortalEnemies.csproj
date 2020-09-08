@@ -5,6 +5,7 @@
         <Configurations>Debug;Release</Configurations>
         <Platforms>x64</Platforms>
         <Nullable>Enable</Nullable>
+        <IsPackable>false</IsPackable>
     </PropertyGroup>
 
     <ItemGroup>
