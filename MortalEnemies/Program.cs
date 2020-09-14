@@ -17,6 +17,7 @@
 
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using Mutagen.Bethesda;
@@ -55,14 +56,23 @@ namespace MortalEnemies
                 {
                     try
                     {
-                        KeyValuePair<string, List<string>> classification = config.Classifications.First(x =>
+                        List<KeyValuePair<string, List<string>>> classifications = config.Classifications
+                            .Where(x => x.Key.Equals(race.EditorID!, StringComparison.OrdinalIgnoreCase))
+                            .ToList();
+
+                        if (classifications.Count == 1)
+                            return (race, edid: classifications.First().Key);
+                        
+                        if (race.Name?.String == null) 
+                            return (race, edid: string.Empty);
+                        
+                        classifications = config.Classifications.Where(x =>
                         {
-                            if (x.Key.Equals(race.EditorID!, StringComparison.OrdinalIgnoreCase))
-                                return true;
-                            if (race.Name?.String == null) return false;
-                            return x.Value.Any(y => y.Equals(race.Name.String, StringComparison.OrdinalIgnoreCase));
-                        });
-                        return (race, edid: classification.Key);
+                            var (_, value) = x;
+                            return value.Any(y => y.Equals(race.Name.String, StringComparison.OrdinalIgnoreCase));
+                        }).ToList();
+                        
+                        return (race, edid: classifications.First().Key);
                     }
                     catch (InvalidOperationException)
                     {
