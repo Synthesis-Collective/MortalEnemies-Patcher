@@ -42,7 +42,7 @@ namespace MortalEnemies
 
         private static void RunPatch(SynthesisState<ISkyrimMod, ISkyrimModGetter> state)
         {
-            const string configFile = "config.json";
+            string configFile = Path.Combine(state.ExtraSettingsDataPath, "config.json");
             if (!File.Exists(configFile))
                 Utils.LogThrow(new ArgumentException("Config file does not exist!"));
 
