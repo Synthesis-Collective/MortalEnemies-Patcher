@@ -16,9 +16,6 @@
 
     <ItemGroup>
       <None Remove="attacks.json" />
-      <Content Include="config.json">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </Content>
     </ItemGroup>
 
 </Project>
