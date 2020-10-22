@@ -10,7 +10,7 @@
 
     <ItemGroup>
         <PackageReference Include="Mutagen.Bethesda" Version="0.18.14" />
-        <PackageReference Include="Mutagen.Bethesda.Synthesis" Version="0.10.5" />
+        <PackageReference Include="Mutagen.Bethesda.Synthesis" Version="0.10.10" />
         <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
     </ItemGroup>
 
