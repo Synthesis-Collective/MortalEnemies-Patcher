@@ -17,7 +17,6 @@
 
 using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using Mutagen.Bethesda;
@@ -80,15 +79,15 @@ namespace MortalEnemies
                     }
                 })
                 .Where(x => !x.edid.Equals(string.Empty))
-                .Select(x => config.AttackData.TryGetValue(x.edid, out var attackData) ? (x.race, attackData) : (x.race, null))
-                .Where(x => x.attackData != null)
+                .Select(x => config.AttackData.TryGetValue(x.edid, out var attackData) ? (x.race, attackData) : (x.race, default(AttackData?)))
                 .ToList();
             
             Utils.Log($"Found {races.Count} races to patch");
-            foreach (var tuple in races)
+            foreach (var tuple in races
+                .Where(x => x.attackData != null)
+                .Select(x => (x.race!, x.attackData!)))
             {
                 var (race, attackData) = tuple;
-                if (attackData == null) continue;
 
                 var patchedRace = state.PatchMod.Races.GetOrAddAsOverride(race);
                 
