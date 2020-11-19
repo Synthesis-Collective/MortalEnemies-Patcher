@@ -80,7 +80,7 @@ namespace MortalEnemies
                     }
                 })
                 .Where(x => !x.edid.Equals(string.Empty))
-                .Select(x => config.AttackData.TryGetValue(x.edid, out var attackData) ? (x.race, attackData) : (x.race, null))
+                .Select(x => config.AttackData.TryGetValue(x.edid, out var attackData) ? (x.race, attackData) : (x.race, attackData: default(AttackData?)))
                 .Where(x => x.attackData != null)
                 .ToList();
             
