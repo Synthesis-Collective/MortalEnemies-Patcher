@@ -22,6 +22,7 @@ using System.Linq;
 using Mutagen.Bethesda;
 using Mutagen.Bethesda.Synthesis;
 using Mutagen.Bethesda.Skyrim;
+using Noggog;
 
 namespace MortalEnemies
 {
@@ -48,7 +49,7 @@ namespace MortalEnemies
             var config = Utils.FromJson<Config>(configFile);
 
             IEnumerable<IModListing<ISkyrimModGetter>> loadOrder = state.LoadOrder.PriorityOrder;
-            List<(IRaceGetter race, AttackData? attackData)> races = loadOrder
+            List<(IRaceGetter race, AttackData attackData)> races = loadOrder
                 .WinningOverrides<IRaceGetter>()
                 .Where(x => x.EditorID != null)
                 .Select(race =>
@@ -78,14 +79,19 @@ namespace MortalEnemies
                         return (race, edid: string.Empty);
                     }
                 })
-                .Where(x => !x.edid.Equals(string.Empty))
-                .Select(x => config.AttackData.TryGetValue(x.edid, out var attackData) ? (x.race, attackData) : (x.race, default(AttackData?)))
+                .SelectWhere(x =>
+                {
+                    if (!x.edid.IsNullOrWhitespace() 
+                        && config.AttackData.TryGetValue(x.edid, out var attackData))
+                    {
+                        return TryGet<(IRaceGetter, AttackData)>.Succeed((x.race, attackData));
+                    }
+                    return TryGet<(IRaceGetter, AttackData)>.Failure;
+                })
                 .ToList();
             
             Utils.Log($"Found {races.Count} races to patch");
-            foreach (var tuple in races
-                .Where(x => x.attackData != null)
-                .Select(x => (x.race!, x.attackData!)))
+            foreach (var tuple in races)
             {
                 var (race, attackData) = tuple;
 
