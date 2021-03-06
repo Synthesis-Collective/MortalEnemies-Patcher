@@ -9,7 +9,6 @@ namespace MortalEnemies
 
     public class Settings
     {
-
         public AttackCommitment CommitmentMode = 0;
     }
 }

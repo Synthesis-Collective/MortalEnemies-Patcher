@@ -56,7 +56,7 @@ namespace MortalEnemies
                     Console.Out.WriteLine($"Could not resolve form key for: {movementTypeKey.ID}");
                     continue;
                 }
-                if (! mtData.ContainsKey(moveType.EditorID))
+                if (!mtData.ContainsKey(moveType.EditorID))
                 {
                     Console.Out.WriteLine($"No data in move_types.json for {moveType.EditorID}");
                     continue;
@@ -86,6 +86,7 @@ namespace MortalEnemies
                         newMoveType.RotateInPlaceRun += 15.0000f;
                         newMoveType.RotateWhileMovingRun += 15.0000f; // These records are guarenteed to pass the if block before this
                     }
+                    state.PatchMod.MovementTypes.Add(newMoveType);
 
                 } catch(Exception e)
                 {
