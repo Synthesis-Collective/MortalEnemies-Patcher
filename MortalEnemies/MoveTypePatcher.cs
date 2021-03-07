@@ -74,7 +74,7 @@ namespace MortalEnemies
                     newMoveType.BackWalk = mtData[moveType.EditorID]["Back Walk"];
                     newMoveType.BackRun = mtData[moveType.EditorID]["Back Run"];
 
-                    newMoveType.RotateInPlaceWalk = mtData[moveType.EditorID]["Rotate in Place Walk"];
+                   /* newMoveType.RotateInPlaceWalk = mtData[moveType.EditorID]["Rotate in Place Walk"];
                     Console.WriteLine($"{moveType.EditorID} Rotate in Place Walk: {newMoveType.RotateInPlaceWalk}");
 
                     newMoveType.RotateInPlaceRun = mtData[moveType.EditorID]["Rotate in Place Run"];
@@ -90,7 +90,7 @@ namespace MortalEnemies
                         newMoveType.RotateInPlaceWalk += 15.0000f;
                         newMoveType.RotateInPlaceRun += 15.0000f;
                         newMoveType.RotateWhileMovingRun += 15.0000f; // These records are guarenteed to pass the if block before this
-                    }
+                    } */
                     state.PatchMod.MovementTypes.Add(newMoveType);
 
                 } catch(Exception e)
