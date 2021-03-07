@@ -99,7 +99,7 @@ namespace MortalEnemies
 
         private Dictionary<string, Dictionary<string, float>> loadMoveTypesFromFile()
         {
-            string file = Path.Combine(this.state.ExtraSettingsDataPath, MT_FILE); // existence is checked when patcher is loaded
+            string file = state.RetrieveConfigFile(MT_FILE);
             
             var moveTypes = JObject.Parse(File.ReadAllText(file));
             if (moveTypes == null)
