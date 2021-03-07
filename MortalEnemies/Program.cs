@@ -54,12 +54,7 @@ namespace MortalEnemies
 
         public static void RunPatch(IPatcherState<ISkyrimMod, ISkyrimModGetter> state)
         {
-            string configFile = Path.Combine(state.ExtraSettingsDataPath, "config.json");
-            string mvConfigFile = Path.Combine(state.ExtraSettingsDataPath, "move_types.json");
-            if (!File.Exists(configFile) || !File.Exists(mvConfigFile))
-                Utils.LogThrow(new ArgumentException("Config file(s) does not exist!"));
-
-            var config = Utils.FromJson<Config>(configFile);
+            var config = Utils.FromJson<Config>(state.RetrieveConfigFile("config.json"));
 
             IEnumerable<IModListing<ISkyrimModGetter>> loadOrder = state.LoadOrder.PriorityOrder;
             List<(IRaceGetter race, AttackData attackData)> races = loadOrder
