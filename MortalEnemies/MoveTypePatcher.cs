@@ -51,7 +51,7 @@ namespace MortalEnemies
             foreach (var movementTypeKey in this.moveTypeKeys)
             {
 
-                if (!this.state.LinkCache.TryResolve<IMovementTypeGetter>(movementTypeKey, out var moveType) || moveType.EditorID is null)
+                if (!this.state.LinkCache.TryResolve<IMovementTypeGetter>(movementTypeKey, out var moveType) || moveType.EditorID == null)
                 {
                     Console.Out.WriteLine($"Could not resolve form key for: {movementTypeKey.ID}");
                     continue;
@@ -73,8 +73,13 @@ namespace MortalEnemies
                     newMoveType.ForwardRun = mtData[moveType.EditorID]["Forward Run"];
                     newMoveType.BackWalk = mtData[moveType.EditorID]["Back Walk"];
                     newMoveType.BackRun = mtData[moveType.EditorID]["Back Run"];
+
                     newMoveType.RotateInPlaceWalk = mtData[moveType.EditorID]["Rotate in Place Walk"];
+                    Console.WriteLine($"{moveType.EditorID} Rotate in Place Walk: {newMoveType.RotateInPlaceWalk}");
+
                     newMoveType.RotateInPlaceRun = mtData[moveType.EditorID]["Rotate in Place Run"];
+                    Console.WriteLine($"{moveType.EditorID} Rotate in Place Rim: {newMoveType.RotateInPlaceRun}");
+
 
                     if (mtData[moveType.EditorID].ContainsKey("Rotate while Moving Run")) // Not all entires have this defined
                     {
