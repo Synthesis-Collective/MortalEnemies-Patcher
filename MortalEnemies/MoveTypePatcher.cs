@@ -75,11 +75,7 @@ namespace MortalEnemies
                     newMoveType.BackRun = mtData[moveType.EditorID]["Back Run"];
 
                     newMoveType.RotateInPlaceWalk = mtData[moveType.EditorID]["Rotate in Place Walk"];
-                    Console.WriteLine($"{moveType.EditorID} Rotate in Place Walk: {newMoveType.RotateInPlaceWalk}");
-
                     newMoveType.RotateInPlaceRun = mtData[moveType.EditorID]["Rotate in Place Run"];
-                    Console.WriteLine($"{moveType.EditorID} Rotate in Place Rim: {newMoveType.RotateInPlaceRun}");
-
 
                     if (mtData[moveType.EditorID].ContainsKey("Rotate while Moving Run")) // Not all entires have this defined
                     {
