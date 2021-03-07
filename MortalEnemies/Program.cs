@@ -56,8 +56,8 @@ namespace MortalEnemies
         {
             string configFile = Path.Combine(state.ExtraSettingsDataPath, "config.json");
             string mvConfigFile = Path.Combine(state.ExtraSettingsDataPath, "move_types.json");
-            if (!File.Exists(configFile))
-                Utils.LogThrow(new ArgumentException("Config file does not exist!"));
+            if (!File.Exists(configFile) || !File.Exists(mvConfigFile))
+                Utils.LogThrow(new ArgumentException("Config file(s) does not exist!"));
 
             var config = Utils.FromJson<Config>(configFile);
 
