@@ -77,15 +77,15 @@ namespace MortalEnemies
                     newMoveType.RotateInPlaceWalk = 45;//mtData[moveType.EditorID]["Rotate in Place Walk"];
                     Console.WriteLine($"{moveType.EditorID} Rotate in Place Walk: {newMoveType.RotateInPlaceWalk}");
 
-                    newMoveType.RotateInPlaceRun = 45.0f;// mtData[moveType.EditorID]["Rotate in Place Run"];
+                    newMoveType.RotateInPlaceRun = 90.0f;// mtData[moveType.EditorID]["Rotate in Place Run"];
                     Console.WriteLine($"{moveType.EditorID} Rotate in Place Rim: {newMoveType.RotateInPlaceRun}");
 
 
-                   /* if (mtData[moveType.EditorID].ContainsKey("Rotate while Moving Run")) // Not all entires have this defined
+                    if (mtData[moveType.EditorID].ContainsKey("Rotate while Moving Run")) // Not all entires have this defined
                     {
-                        newMoveType.RotateWhileMovingRun = mtData[moveType.EditorID]["Rotate while Moving Run"];
+                        newMoveType.RotateWhileMovingRun = 120; // mtData[moveType.EditorID]["Rotate while Moving Run"];
                     } 
-                    if (this.settings.CommitmentMode == AttackCommitment.RivalRemix && this.remixKeys.Contains(movementTypeKey))
+                    /*if (this.settings.CommitmentMode == AttackCommitment.RivalRemix && this.remixKeys.Contains(movementTypeKey))
                     {
                         newMoveType.RotateInPlaceWalk += 15.0000f;
                         newMoveType.RotateInPlaceRun += 15.0000f;
