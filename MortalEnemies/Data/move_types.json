@@ -1,0 +1,103 @@
+{
+  "NPC_BowDrawn_MT":{
+    "Left Walk":76.809998,
+    "Left Run":115.000000,
+    "Right Walk":74.889999,
+    "Right Run":115.000000,
+    "Forward Walk":120.000000,
+    "Forward Run":135.000000,
+    "Back Walk":65.110001,
+    "Back Run":98.000000,
+    "Rotate in Place Walk":180.000000,
+    "Rotate in Place Run":180.0000
+  },
+  "NPC_Blocking_MT":{
+    "Left Walk":140.000000,
+    "Left Run":140.000000,
+    "Right Walk":140.000000,
+    "Right Run":140.000000,
+    "Forward Walk":140.000000,
+    "Forward Run":140.000000,
+    "Back Walk":140.000000,
+    "Back Run":140.000000,
+    "Rotate in Place Walk":160.000000,
+    "Rotate in Place Run":160.0000
+  },
+  "NPC_1HM_MT":{
+    "Left Walk":125.000000,
+    "Left Run":290.000000,
+    "Right Walk":125.000000,
+    "Right Run":290.000000,
+    "Forward Walk":125.000000,
+    "Forward Run":290.000000,
+    "Back Walk":125.000000,
+    "Back Run":170.000000,
+    "Rotate in Place Walk":180.000000,
+    "Rotate in Place Run":180.0000,
+    "Rotate while Moving Run":180.0000
+  },
+  "NPC_2HM_MT":{
+    "Left Walk":125.000000,
+    "Left Run":290.000000,
+    "Right Walk":125.000000,
+    "Right Run":290.000000,
+    "Forward Walk":125.000000,
+    "Forward Run":290.000000,
+    "Back Walk":125.000000,
+    "Back Run":170.000000,
+    "Rotate in Place Walk":180.000000,
+    "Rotate in Place Run":180.0000,
+    "Rotate while Moving Run":180.0000
+  },
+  "NPC_MagicCasting_MT":{
+    "Left Walk":80.089996,
+    "Left Run":370.000000,
+    "Right Walk":79.750000,
+    "Right Run":370.000000,
+    "Forward Walk":80.099998,
+    "Forward Run":370.000000,
+    "Back Walk":71.930000,
+    "Back Run":170.839996,
+    "Rotate in Place Walk":90.000000,
+    "Rotate in Place Run":90.0000
+  },
+  "NPC_Attacking_MT":{
+    "Left Walk":59.040001,
+    "Left Run":160.000000,
+    "Right Walk":59.040001,
+    "Right Run":160.000000,
+    "Forward Walk":60.049999,
+    "Forward Run":170.000000,
+    "Back Walk":55.970001,
+    "Back Run":150.000000,
+    "Rotate in Place Walk":40.000000,
+    "Rotate in Place Run":40.0000,
+    "Rotate while Moving Run":35.0000
+  },
+  "NPC_PowerAttacking_MT":{
+    "Left Walk":48.040001,
+    "Left Run":175.000000,
+    "Right Walk":48.040001,
+    "Right Run":175.000000,
+    "Forward Walk":50.049999,
+    "Forward Run":185.000000,
+    "Back Walk":32.730000,
+    "Back Run":115.000000,
+    "Rotate in Place Walk":30.000000,
+    "Rotate in Place Run":30.0000,
+    "Rotate while Moving Run":20.0000
+  },
+  "NPC_Attacking2H_MT":{
+    "Left Walk":57.889999,
+    "Left Run":160.000000,
+    "Right Walk":57.889999,
+    "Right Run":160.000000,
+    "Forward Walk":63.860001,
+    "Forward Run":170.000000,
+    "Back Walk":55.889999,
+    "Back Run":150.000000,
+    "Rotate in Place Walk":35.0000,
+    "Rotate in Place Run":35.0000,
+    "Rotate while Moving Run":30.0000
+  }
+}
