@@ -74,23 +74,23 @@ namespace MortalEnemies
                     newMoveType.BackWalk = mtData[moveType.EditorID]["Back Walk"];
                     newMoveType.BackRun = mtData[moveType.EditorID]["Back Run"];
 
-                    newMoveType.RotateInPlaceWalk = mtData[moveType.EditorID]["Rotate in Place Walk"];
+                    newMoveType.RotateInPlaceWalk = 45;//mtData[moveType.EditorID]["Rotate in Place Walk"];
                     Console.WriteLine($"{moveType.EditorID} Rotate in Place Walk: {newMoveType.RotateInPlaceWalk}");
 
-                    newMoveType.RotateInPlaceRun = mtData[moveType.EditorID]["Rotate in Place Run"];
+                    newMoveType.RotateInPlaceRun = 45.0f;// mtData[moveType.EditorID]["Rotate in Place Run"];
                     Console.WriteLine($"{moveType.EditorID} Rotate in Place Rim: {newMoveType.RotateInPlaceRun}");
 
 
                    /* if (mtData[moveType.EditorID].ContainsKey("Rotate while Moving Run")) // Not all entires have this defined
                     {
                         newMoveType.RotateWhileMovingRun = mtData[moveType.EditorID]["Rotate while Moving Run"];
-                    } */
+                    } 
                     if (this.settings.CommitmentMode == AttackCommitment.RivalRemix && this.remixKeys.Contains(movementTypeKey))
                     {
                         newMoveType.RotateInPlaceWalk += 15.0000f;
                         newMoveType.RotateInPlaceRun += 15.0000f;
                         newMoveType.RotateWhileMovingRun += 15.0000f; // These records are guarenteed to pass the if block before this
-                    } 
+                    } */
                     state.PatchMod.MovementTypes.Add(newMoveType);
 
                 } catch(Exception e)
