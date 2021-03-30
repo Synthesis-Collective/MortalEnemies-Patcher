@@ -56,7 +56,7 @@ namespace MortalEnemies
                     Console.Out.WriteLine($"Could not resolve form key for: {movementTypeKey.ID}");
                     continue;
                 }
-                if (!mtData.ContainsKey(moveType.EditorID))
+                if (moveType.EditorID == null || !mtData.ContainsKey(moveType.EditorID))
                 {
                     Console.Out.WriteLine($"No data in move_types.json for {moveType.EditorID}");
                     continue;
