@@ -41,23 +41,15 @@ namespace MortalEnemies
                     "settings.json",
                     out LazySettings)
                 .AddPatch<ISkyrimMod, ISkyrimModGetter>(RunPatch)
-                .Run(args, new RunPreferences()
-                {
-                    ActionsForEmptyArgs = new RunDefaultPatcher()
-                    {
-                        IdentifyingModKey = "Mortal Enemies - CSharp.esp",
-                        TargetRelease = GameRelease.SkyrimSE,
-                    }
-                });
+                .SetTypicalOpen(GameRelease.SkyrimSE, "Mortal Enemies.esp")
+                .Run(args);
         }
-
 
         public static void RunPatch(IPatcherState<ISkyrimMod, ISkyrimModGetter> state)
         {
             var config = Utils.FromJson<Config>(state.RetrieveConfigFile("config.json"));
 
-            IEnumerable<IModListing<ISkyrimModGetter>> loadOrder = state.LoadOrder.PriorityOrder;
-            List<(IRaceGetter race, AttackData attackData)> races = loadOrder
+            List<(IRaceGetter race, AttackData attackData)> races = state.LoadOrder.PriorityOrder
                 .WinningOverrides<IRaceGetter>()
                 .Where(x => x.EditorID != null)
                 .Select(race =>

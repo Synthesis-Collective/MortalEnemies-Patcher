@@ -6,6 +6,7 @@ using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.IO;
+using Mutagen.Bethesda.Plugins;
 
 namespace MortalEnemies
 {
@@ -15,8 +16,8 @@ namespace MortalEnemies
 
         private IPatcherState<ISkyrimMod, ISkyrimModGetter> state;
         private MortalEnemies.Settings settings;
-        private List<FormKey> moveTypeKeys;
-        private HashSet<FormKey> remixKeys; // Is a hash set overkill for 3 items =) ?
+        private HashSet<IFormLinkGetter<IMovementTypeGetter>> moveTypeLinks;
+        private HashSet<IFormLinkGetter<IMovementTypeGetter>> remixLinks;
 
 
         public MoveTypePatcher(IPatcherState<ISkyrimMod, ISkyrimModGetter> state, MortalEnemies.Settings settings)
@@ -24,7 +25,8 @@ namespace MortalEnemies
             this.state = state;
             this.settings = settings;
             // These formkeys editorids are in move_types.json
-            this.moveTypeKeys = new List<FormKey>{
+            this.moveTypeLinks = new()
+            {
                 Skyrim.MovementType.NPC_BowDrawn_MT,
                 Skyrim.MovementType.NPC_Blocking_MT,
                 Skyrim.MovementType.NPC_1HM_MT,
@@ -35,7 +37,7 @@ namespace MortalEnemies
                 Skyrim.MovementType.NPC_Attacking2H_MT
             };
             // These types have some records offset by +15 when rival remix setting is on.
-            this.remixKeys = new HashSet<FormKey>
+            this.remixLinks = new()
             {
                 Skyrim.MovementType.NPC_Attacking2H_MT,
                 Skyrim.MovementType.NPC_Attacking_MT,
@@ -43,17 +45,17 @@ namespace MortalEnemies
             };
         }
 
-        
+
         public void run()
         {
             Dictionary<string, Dictionary<string, float>> mtData = loadMoveTypesFromFile();
 
-            foreach (var movementTypeKey in this.moveTypeKeys)
+            foreach (var movementTypeLink in this.moveTypeLinks)
             {
 
-                if (!this.state.LinkCache.TryResolve<IMovementTypeGetter>(movementTypeKey, out var moveType) || moveType.EditorID == null)
+                if (!movementTypeLink.TryResolve(this.state.LinkCache, out var moveType) || moveType.EditorID == null)
                 {
-                    Console.Out.WriteLine($"Could not resolve form key for: {movementTypeKey.ID}");
+                    Console.Out.WriteLine($"Could not resolve form key for: {movementTypeLink}");
                     continue;
                 }
                 if (moveType.EditorID == null || !mtData.ContainsKey(moveType.EditorID))
@@ -66,7 +68,7 @@ namespace MortalEnemies
                 {
                     var newMoveType = moveType.DeepCopy();
                     newMoveType.LeftWalk = mtData[moveType.EditorID]["Left Walk"];
-                    newMoveType.LeftRun =  mtData[moveType.EditorID]["Left Run"];
+                    newMoveType.LeftRun = mtData[moveType.EditorID]["Left Run"];
                     newMoveType.RightWalk = mtData[moveType.EditorID]["Right Walk"];
                     newMoveType.RightRun = mtData[moveType.EditorID]["Right Run"];
                     newMoveType.ForwardWalk = mtData[moveType.EditorID]["Forward Walk"];
@@ -80,18 +82,19 @@ namespace MortalEnemies
                     if (mtData[moveType.EditorID].ContainsKey("Rotate while Moving Run")) // Not all entires have this defined
                     {
                         newMoveType.RotateWhileMovingRun = mtData[moveType.EditorID]["Rotate while Moving Run"];
-                    } 
-                    if (this.settings.CommitmentMode == AttackCommitment.RivalRemix && this.remixKeys.Contains(movementTypeKey))
+                    }
+                    if (this.settings.CommitmentMode == AttackCommitment.RivalRemix && this.remixLinks.Contains(movementTypeLink))
                     {
                         newMoveType.RotateInPlaceWalk += 15.0000f;
                         newMoveType.RotateInPlaceRun += 15.0000f;
                         newMoveType.RotateWhileMovingRun += 15.0000f; // These records are guarenteed to pass the if block before this
-                    } 
+                    }
                     state.PatchMod.MovementTypes.Add(newMoveType);
 
-                } catch(Exception e)
+                }
+                catch (Exception e)
                 {
-                    Console.WriteLine($"Could not set data for {movementTypeKey}: {e.Message}");
+                    Console.WriteLine($"Could not set data for {movementTypeLink}: {e.Message}");
                 }
             }
         }
@@ -100,7 +103,7 @@ namespace MortalEnemies
         private Dictionary<string, Dictionary<string, float>> loadMoveTypesFromFile()
         {
             string file = state.RetrieveConfigFile(MT_FILE);
-            
+
             var moveTypes = JObject.Parse(File.ReadAllText(file));
             if (moveTypes == null)
             {
