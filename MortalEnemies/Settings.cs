@@ -10,5 +10,6 @@ namespace MortalEnemies
     public class Settings
     {
         public AttackCommitment CommitmentMode = AttackCommitment.Original;
+        public bool NoRunWalkChanges = false;
     }
 }

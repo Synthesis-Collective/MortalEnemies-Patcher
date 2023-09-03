@@ -67,14 +67,17 @@ namespace MortalEnemies
                 try
                 {
                     var newMoveType = moveType.DeepCopy();
-                    newMoveType.LeftWalk = mtData[moveType.EditorID]["Left Walk"];
-                    newMoveType.LeftRun = mtData[moveType.EditorID]["Left Run"];
-                    newMoveType.RightWalk = mtData[moveType.EditorID]["Right Walk"];
-                    newMoveType.RightRun = mtData[moveType.EditorID]["Right Run"];
-                    newMoveType.ForwardWalk = mtData[moveType.EditorID]["Forward Walk"];
-                    newMoveType.ForwardRun = mtData[moveType.EditorID]["Forward Run"];
-                    newMoveType.BackWalk = mtData[moveType.EditorID]["Back Walk"];
-                    newMoveType.BackRun = mtData[moveType.EditorID]["Back Run"];
+                    if (!this.settings.NoRunWalkChanges)
+                    {
+                        newMoveType.LeftWalk = mtData[moveType.EditorID]["Left Walk"];
+                        newMoveType.LeftRun = mtData[moveType.EditorID]["Left Run"];
+                        newMoveType.RightWalk = mtData[moveType.EditorID]["Right Walk"];
+                        newMoveType.RightRun = mtData[moveType.EditorID]["Right Run"];
+                        newMoveType.ForwardWalk = mtData[moveType.EditorID]["Forward Walk"];
+                        newMoveType.ForwardRun = mtData[moveType.EditorID]["Forward Run"];
+                        newMoveType.BackWalk = mtData[moveType.EditorID]["Back Walk"];
+                        newMoveType.BackRun = mtData[moveType.EditorID]["Back Run"];
+                    }
 
                     newMoveType.RotateInPlaceWalk = mtData[moveType.EditorID]["Rotate in Place Walk"];
                     newMoveType.RotateInPlaceRun = mtData[moveType.EditorID]["Rotate in Place Run"];
