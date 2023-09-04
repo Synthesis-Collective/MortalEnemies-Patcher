@@ -8,8 +8,8 @@
     "Forward Run":135.000000,
     "Back Walk":65.110001,
     "Back Run":98.000000,
-    "Rotate in Place Walk":180.000000,
-    "Rotate in Place Run":180.0000
+    "Rotate in Place Walk":180.00006,
+    "Rotate in Place Run":180.00006
   },
   "NPC_Blocking_MT":{
     "Left Walk":140.000000,
@@ -20,8 +20,8 @@
     "Forward Run":140.000000,
     "Back Walk":140.000000,
     "Back Run":140.000000,
-    "Rotate in Place Walk":160.000000,
-    "Rotate in Place Run":160.0000
+    "Rotate in Place Walk":160.00006,
+    "Rotate in Place Run":160.00006
   },
   "NPC_1HM_MT":{
     "Left Walk":125.000000,
@@ -32,9 +32,9 @@
     "Forward Run":290.000000,
     "Back Walk":125.000000,
     "Back Run":170.000000,
-    "Rotate in Place Walk":180.000000,
-    "Rotate in Place Run":180.0000,
-    "Rotate while Moving Run":180.0000
+    "Rotate in Place Walk":180.00006,
+    "Rotate in Place Run":180.00006,
+    "Rotate while Moving Run":180.00006
   },
   "NPC_2HM_MT":{
     "Left Walk":125.000000,
@@ -45,9 +45,9 @@
     "Forward Run":290.000000,
     "Back Walk":125.000000,
     "Back Run":170.000000,
-    "Rotate in Place Walk":180.000000,
-    "Rotate in Place Run":180.0000,
-    "Rotate while Moving Run":180.0000
+    "Rotate in Place Walk":180.00006,
+    "Rotate in Place Run":180.00006,
+    "Rotate while Moving Run":180.00006
   },
   "NPC_MagicCasting_MT":{
     "Left Walk":80.089996,
